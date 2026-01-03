@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 """contract_engine.ipynb
 
@@ -258,7 +259,6 @@ cols = ['Player', 'Prev_AAV_Num', 'Est_AAV', 'Value_Delta', 'Status', 'PIE']
 print(final_2026[cols].sort_values('Value_Delta', ascending=False).head(20).to_string(index=False))
 
 # 1. Setup and Imports
-!pip install nba_api -q
 import pandas as pd
 import numpy as np
 import time
