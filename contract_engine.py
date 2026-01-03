@@ -8,7 +8,6 @@ Original file is located at
 """
 
 # 1. Install and Import Libraries
-!pip install nba_api -q
 import pandas as pd
 import numpy as np
 import time
