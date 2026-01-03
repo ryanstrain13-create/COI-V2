@@ -131,7 +131,6 @@ output_table = final_2026[cols].sort_values('Est_AAV', ascending=False).head(25)
 print(output_table.to_string(index=False))
 
 # 1. Install and Import
-!pip install nba_api -q
 import pandas as pd
 import numpy as np
 import time
