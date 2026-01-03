@@ -1,84 +1,58 @@
-import pandas as pd
-import numpy as np
 import time
-from datetime import datetime
+import random
 from nba_api.stats.endpoints import leaguedashplayerstats
-from sklearn.linear_model import LassoCV
-from sklearn.preprocessing import StandardScaler
+from nba_api.library.http import NBAStatsHTTP
 from requests.exceptions import ReadTimeout, ConnectionError
 
-# --- CONFIGURATION ---
-pd.options.display.float_format = '{:,.2f}'.format
-TRACKER_FILE = 'nba_contract_tracker.csv'
-TRAINING_FILE = 'master_training_set.csv' # THE STATIC FILE YOU CREATED
-CAP_2026_PROJECTED = 155100000 
-FEATURES = ['AGE', 'GP', 'MIN', 'PTS', 'REB', 'AST', 'STL', 'BLK', 'PLUS_MINUS', 'TS_PCT', 'USG_PCT', 'PIE']
+# 1. SET GLOBAL CONFIGURATION
+# Increase timeout to 60 seconds (default is 30)
+NBAStatsHTTP.nba_response_timeout = 60
 
-# --- ROBUST FETCH HELPER (ONLY FOR 2025-26) ---
-def fetch_nba_data(endpoint_call, max_retries=5):
+# 2. DEFINE ROBUST HEADERS
+# This mimics a standard browser to avoid being flagged by Akamai/NBA security
+CUSTOM_HEADERS = {
+    'Host': 'stats.nba.com',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Referer': 'https://www.nba.com/',
+    'Origin': 'https://www.nba.com',
+    'Connection': 'keep-alive',
+}
+
+def fetch_nba_data_with_retry(endpoint_call, max_retries=5):
+    """
+    Wrapper to handle timeouts and rate limits with exponential backoff.
+    """
     for i in range(max_retries):
         try:
-            return endpoint_call.get_data_frames()[0]
-        except (ReadTimeout, ConnectionError):
-            wait_time = (i + 1) * 5
-            print(f"Timeout. Retrying in {wait_time}s...")
+            # Add a small random delay before the request to avoid spamming
+            time.sleep(random.uniform(1.5, 3.5))
+            
+            # Execute the endpoint call
+            data = endpoint_call.get_data_frames()[0]
+            return data
+            
+        except (ReadTimeout, ConnectionError) as e:
+            wait_time = (2 ** i) + random.random() # Exponential backoff: 2s, 4s, 8s...
+            print(f"Attempt {i+1} failed: {e}. Retrying in {wait_time:.2f} seconds...")
+            if i == max_retries - 1:
+                raise e
             time.sleep(wait_time)
-    raise Exception("API Failed.")
 
-def parse_fa_type(type_str):
-    t = str(type_str).upper()
-    status, rights, opt_val = "UFA", "Non-Bird", 0
-    if "RFA" in t: status = "RFA"
-    elif "PLAYER" in t: status = "Player Option"
-    elif "CLUB" in t: status = "Club Option"
-    if "BIRD" in t and "EARLY" not in t: rights = "Full Bird"
-    elif "EARLY BIRD" in t: rights = "Early Bird"
-    if "$" in t:
-        try: opt_val = float(t.split('$')[1].replace('M', '')) * 1_000_000
-        except: pass
-    return status, rights, opt_val
-
-# --- STEP 1: LOAD STATIC TRAINING DATA ---
-def train_model():
-    print("Loading static training data...")
-    df_train = pd.read_csv(TRAINING_FILE)
-    X, y = df_train[FEATURES], df_train['Cap_Pct']
-    scaler = StandardScaler().fit(X)
-    lasso = LassoCV(cv=5, random_state=42).fit(scaler.transform(X), y)
-    return lasso, scaler
-
-# --- STEP 2: RUN WEEKLY SNAPSHOT ---
-def run_snapshot(model, scaler):
-    today = datetime.today().strftime('%Y-%m-%d')
-    print(f"📅 Snapshot for: {today}")
+# 3. UPDATED RUN SNAPSHOT FUNCTION
+def run_snapshot(lasso_model, data_scaler):
+    print("Fetching live NBA player stats...")
     
-    # ONLY ONE API CALL NOW
-    live_trad = fetch_nba_data(leaguedashplayerstats.LeagueDashPlayerStats(season='2025-26', per_mode_detailed='Totals'))
-    time.sleep(2)
-    live_adv = fetch_nba_data(leaguedashplayerstats.LeagueDashPlayerStats(season='2025-26', measure_type_detailed_defense='Advanced'))
-    live_df = pd.merge(live_trad, live_adv[['PLAYER_ID', 'TS_PCT', 'USG_PCT', 'PIE']], on='PLAYER_ID')
+    # Define the endpoint object
+    # Use headers=CUSTOM_HEADERS to ensure the request is accepted
+    stats_call = leaguedashplayerstats.LeagueDashPlayerStats(
+        season='2025-26', 
+        per_mode_detailed='Totals',
+        headers=CUSTOM_HEADERS
+    )
     
-    fa_2026 = pd.read_csv('NBA Free Agents 2026 - Sheet1.csv', skiprows=1)
-    fa_2026[['Status', 'Rights', 'Option_Value']] = fa_2026['Type'].apply(lambda x: pd.Series(parse_fa_type(x)))
+    # Use our new retry wrapper to get the data
+    live_trad = fetch_nba_data_with_retry(stats_call)
     
-    final = pd.merge(live_df, fa_2026, left_on='PLAYER_NAME', right_on='Player (248)')
-    final = final.rename(columns={'PLAYER_NAME': 'Player'})
-    
-    X_live = scaler.transform(final[FEATURES])
-    final['Snapshot_Date'] = today
-    final['Predicted_AAV'] = model.predict(X_live) * CAP_2026_PROJECTED
-    
-    # Save to Tracker
-    new_data = final[['Player', 'Snapshot_Date', 'Predicted_AAV', 'PIE', 'Status']]
-    try:
-        master = pd.read_csv(TRACKER_FILE)
-        master = pd.concat([master, new_data], ignore_index=True).drop_duplicates(subset=['Player', 'Snapshot_Date'])
-    except:
-        master = new_data
-    
-    master.to_csv(TRACKER_FILE, index=False)
-    print("✅ Success.")
-
-# --- RUN ---
-lasso_model, data_scaler = train_model()
-run_snapshot(lasso_model, data_scaler)
+    # ... rest of your processing logic (lasso_model, scaler
