@@ -1,0 +1,35 @@
+name: Weekly NBA Contract Update
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install nba_api pandas scikit-learn # <--- INSTALL PACKAGES HERE
+
+      - name: Run Update Script
+        run: python contract_engine.py
+
+      - name: Commit and Push CSV
+        run: |
+          git config --global user.name "NBA-Bot"
+          git config --global user.email "bot@github.com"
+          git add nba_contract_tracker.csv
+          git commit -m "Weekly Market Value Update: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
