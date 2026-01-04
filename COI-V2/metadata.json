@@ -1,0 +1,7 @@
+{
+  "name": "Coi - The Professional Athlete Agent",
+  "description": "A Career Optimization Interface for professional athletes, providing data-driven insights on performance, contract valuation, and marketability through advanced AI agents.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
