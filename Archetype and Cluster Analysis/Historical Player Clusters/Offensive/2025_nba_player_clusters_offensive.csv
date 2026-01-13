@@ -1,0 +1,436 @@
+PLAYER_ID,PLAYER_NAME,TEAM_ABBREVIATION,Archetype_Name,Cluster,USG_PCT,AST_PCT,PICK__ROLL_BALL_HANDLER_FREQ,PICK__ROLL_ROLL_MAN_FREQ,SPOT_UP_FREQ,POST_UP_FREQ,OFF_SCREEN_FREQ,CUT_FREQ,ISOLATION_FREQ,TRANSITION_FREQ
+1630639,A.J. Lawson,TOR,Balanced / Low Usage Role,7,0.189,0.093,0.065,0.0,0.0,0.0,0.0,0.099,0.0,0.0
+1631260,AJ Green,MIL,"Elite Off-Screen, Spot Up, Transition",6,0.123,0.086,0.059,0.053,0.39,0.0,0.095,0.0,0.0,0.143
+1642358,AJ Johnson,WAS,Balanced / Low Usage Role,7,0.173,0.178,0.257,0.0,0.0,0.0,0.0,0.0,0.095,0.0
+203932,Aaron Gordon,DEN,"Elite Post Up, High Roll Man, High Usage",0,0.186,0.143,0.083,0.042,0.151,0.152,0.0,0.151,0.085,0.166
+1628988,Aaron Holiday,HOU,"P&R Handler, Transition, Spot Up",5,0.162,0.142,0.224,0.0,0.373,0.0,0.053,0.0,0.037,0.168
+1630174,Aaron Nesmith,IND,"High Spot Up, Transition",1,0.171,0.063,0.071,0.049,0.368,0.0,0.056,0.036,0.0,0.261
+1630598,Aaron Wiggins,OKC,"High Spot Up, Transition",1,0.2,0.102,0.105,0.045,0.35,0.0,0.037,0.063,0.042,0.239
+1641737,Adem Bona,PHI,"Elite Cutter, Elite Roll Man, Post Up",2,0.135,0.043,0.0,0.212,0.054,0.047,0.0,0.202,0.0,0.094
+1642349,Ajay Mitchell,OKC,"P&R Handler, Transition, Spot Up",5,0.159,0.153,0.275,0.0,0.288,0.0,0.0,0.074,0.0,0.183
+201143,Al Horford,BOS,"High Spot Up, Transition",1,0.136,0.102,0.0,0.15,0.425,0.084,0.021,0.059,0.0,0.152
+202692,Alec Burks,MIA,"High Spot Up, Transition",1,0.16,0.09,0.125,0.0,0.464,0.0,0.04,0.0,0.031,0.137
+1627936,Alex Caruso,OKC,"High Spot Up, Transition",1,0.147,0.171,0.059,0.065,0.412,0.0,0.0,0.102,0.0,0.243
+1642024,Alex Reese,PHI,Balanced / Low Usage Role,7,0.123,0.023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1642259,Alex Sarr,WAS,"Elite Cutter, Elite Roll Man, Post Up",2,0.23,0.139,0.026,0.263,0.248,0.026,0.0,0.103,0.041,0.15
+1630578,Alperen Sengun,HOU,"Elite Post Up, High Roll Man, High Usage",0,0.259,0.238,0.035,0.182,0.084,0.203,0.0,0.094,0.141,0.086
+1641708,Amen Thompson,HOU,"P&R Handler, Transition, Spot Up",5,0.172,0.167,0.158,0.032,0.115,0.0,0.0,0.175,0.079,0.255
+1629599,Amir Coffey,LAC,"High Spot Up, Transition",1,0.15,0.065,0.057,0.036,0.393,0.0,0.026,0.0,0.016,0.339
+203083,Andre Drummond,PHI,"Elite Cutter, Elite Roll Man, Post Up",2,0.183,0.07,0.0,0.215,0.051,0.118,0.0,0.172,0.0,0.06
+1641748,Andre Jackson Jr.,MIL,"High Spot Up, Transition",1,0.115,0.109,0.0,0.038,0.313,0.0,0.0,0.17,0.0,0.238
+1629614,Andrew Nembhard,IND,"P&R Handler, Transition, Spot Up",5,0.163,0.225,0.283,0.0,0.262,0.0,0.017,0.028,0.062,0.223
+203952,Andrew Wiggins,MIA,"P&R Handler, Transition, Spot Up",5,0.238,0.137,0.235,0.0,0.217,0.102,0.05,0.061,0.064,0.172
+1629014,Anfernee Simons,POR,"Elite P&R Handler, High Playmaking, High Usage",3,0.241,0.241,0.369,0.0,0.162,0.0,0.06,0.0,0.153,0.155
+1641710,Anthony Black,ORL,"P&R Handler, Transition, Spot Up",5,0.19,0.201,0.311,0.019,0.222,0.0,0.014,0.039,0.041,0.195
+203076,Anthony Davis,DAL,"Elite Post Up, High Roll Man, High Usage",0,0.301,0.182,0.082,0.192,0.078,0.127,0.032,0.1,0.106,0.098
+1630162,Anthony Edwards,MIN,"Elite Iso, Elite Usage, High Playmaking",4,0.307,0.209,0.333,0.007,0.11,0.017,0.057,0.014,0.196,0.151
+1641810,Antonio Reeves,NOP,"Elite Off-Screen, Spot Up, Transition",6,0.183,0.089,0.109,0.0,0.287,0.0,0.061,0.065,0.051,0.235
+1641709,Ausar Thompson,DET,"High Spot Up, Transition",1,0.185,0.139,0.061,0.056,0.144,0.02,0.0,0.175,0.045,0.284
+1630559,Austin Reaves,LAL,"Elite P&R Handler, High Playmaking, High Usage",3,0.23,0.241,0.301,0.022,0.204,0.0,0.062,0.017,0.088,0.157
+1630245,Ayo Dosunmu,CHI,"P&R Handler, Transition, Spot Up",5,0.163,0.21,0.191,0.0,0.295,0.0,0.0,0.038,0.0,0.315
+1628389,Bam Adebayo,MIA,"Elite Post Up, High Roll Man, High Usage",0,0.232,0.204,0.027,0.179,0.144,0.129,0.024,0.132,0.118,0.113
+1631248,Baylor Scheierman,BOS,"Elite Off-Screen, Spot Up, Transition",6,0.143,0.12,0.094,0.0,0.375,0.0,0.102,0.0,0.0,0.219
+1641767,Ben Sheppard,IND,"High Spot Up, Transition",1,0.108,0.087,0.038,0.0,0.39,0.0,0.041,0.072,0.0,0.336
+1627732,Ben Simmons,LAC,"Elite P&R Handler, High Playmaking, High Usage",3,0.133,0.358,0.144,0.052,0.037,0.089,0.0,0.163,0.096,0.233
+1631097,Bennedict Mathurin,IND,"P&R Handler, Transition, Spot Up",5,0.222,0.09,0.23,0.0,0.136,0.0,0.051,0.063,0.105,0.259
+1641731,Bilal Coulibaly,WAS,"P&R Handler, Transition, Spot Up",5,0.175,0.15,0.257,0.013,0.238,0.0,0.018,0.041,0.048,0.249
+202687,Bismack Biyombo,SAS,Balanced / Low Usage Role,7,0.124,0.079,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1631104,Blake Wesley,SAS,"P&R Handler, Transition, Spot Up",5,0.165,0.225,0.212,0.0,0.279,0.0,0.0,0.041,0.071,0.208
+1626171,Bobby Portis,MIL,"Elite Post Up, High Roll Man, High Usage",0,0.234,0.126,0.0,0.158,0.202,0.238,0.0,0.085,0.06,0.111
+203992,Bogdan Bogdanović,LAC,"Elite Off-Screen, Spot Up, Transition",6,0.183,0.152,0.265,0.08,0.245,0.0,0.113,0.0,0.047,0.285
+1629626,Bol Bol,PHX,"High Spot Up, Transition",1,0.204,0.071,0.0,0.056,0.465,0.0,0.0,0.112,0.0,0.186
+203078,Bradley Beal,PHX,"P&R Handler, Transition, Spot Up",5,0.219,0.177,0.251,0.026,0.273,0.0,0.048,0.054,0.067,0.149
+1641764,Brandin Podziemski,GSW,"P&R Handler, Transition, Spot Up",5,0.177,0.194,0.198,0.024,0.283,0.0,0.035,0.051,0.048,0.182
+1630527,Brandon Boston,NOP,Balanced / Low Usage Role,7,0.199,0.14,0.223,0.023,0.0,0.0,0.036,0.036,0.079,0.0
+1629634,Brandon Clarke,MEM,"Elite Cutter, Elite Roll Man, Post Up",2,0.15,0.072,0.0,0.148,0.11,0.0,0.0,0.289,0.0,0.214
+1627742,Brandon Ingram,TOR,"Elite Iso, Elite Usage, High Playmaking",4,0.305,0.28,0.247,0.026,0.165,0.075,0.068,0.0,0.153,0.125
+1641706,Brandon Miller,CHA,"Elite Off-Screen, Spot Up, Transition",6,0.27,0.182,0.276,0.037,0.166,0.0,0.148,0.0,0.061,0.14
+1630314,Brandon Williams,DAL,"Elite P&R Handler, High Playmaking, High Usage",3,0.218,0.228,0.243,0.0,0.2,0.0,0.0,0.0,0.118,0.255
+1641729,Brice Sensabaugh,UTA,"Elite Off-Screen, Spot Up, Transition",6,0.208,0.117,0.147,0.029,0.295,0.0,0.079,0.024,0.056,0.203
+201572,Brook Lopez,MIL,"Elite Post Up, High Roll Man, High Usage",0,0.157,0.078,0.0,0.242,0.285,0.111,0.0,0.129,0.022,0.069
+1628971,Bruce Brown,NOP,"P&R Handler, Transition, Spot Up",5,0.169,0.133,0.211,0.0,0.209,0.0,0.067,0.141,0.056,0.209
+1642267,Bub Carrington,WAS,"P&R Handler, Transition, Spot Up",5,0.154,0.213,0.295,0.0,0.227,0.0,0.018,0.034,0.051,0.2
+1627741,Buddy Hield,GSW,"Elite Off-Screen, Spot Up, Transition",6,0.196,0.106,0.06,0.017,0.272,0.0,0.189,0.033,0.023,0.253
+203468,CJ McCollum,NOP,"Elite P&R Handler, High Playmaking, High Usage",3,0.266,0.192,0.266,0.014,0.21,0.0,0.097,0.015,0.066,0.185
+1630595,Cade Cunningham,DET,"Elite Iso, Elite Usage, High Playmaking",4,0.323,0.409,0.407,0.0,0.067,0.055,0.013,0.011,0.111,0.161
+1631216,Caleb Houstan,ORL,"Elite Off-Screen, Spot Up, Transition",6,0.115,0.066,0.0,0.076,0.502,0.0,0.081,0.047,0.0,0.18
+1628997,Caleb Martin,DAL,"P&R Handler, Transition, Spot Up",5,0.143,0.116,0.165,0.0,0.34,0.0,0.0,0.049,0.097,0.197
+1629629,Cam Reddish,LAL,"High Spot Up, Transition",1,0.084,0.049,0.0,0.0,0.419,0.0,0.0,0.128,0.0,0.248
+1642285,Cam Spencer,MEM,"High Spot Up, Transition",1,0.148,0.182,0.0,0.0,0.281,0.0,0.0,0.104,0.0,0.313
+1630560,Cam Thomas,BKN,"Elite P&R Handler, High Playmaking, High Usage",3,0.328,0.217,0.304,0.0,0.14,0.0,0.055,0.017,0.119,0.116
+1641715,Cam Whitmore,HOU,"P&R Handler, Transition, Spot Up",5,0.231,0.09,0.138,0.0,0.271,0.0,0.0,0.048,0.076,0.283
+1629661,Cameron Johnson,BKN,"Elite Off-Screen, Spot Up, Transition",6,0.224,0.179,0.145,0.015,0.219,0.0,0.102,0.037,0.049,0.202
+1626166,Cameron Payne,NYK,"Elite P&R Handler, High Playmaking, High Usage",3,0.2,0.251,0.384,0.0,0.263,0.0,0.025,0.0,0.042,0.18
+1627747,Caris LeVert,ATL,"P&R Handler, Transition, Spot Up",5,0.191,0.178,0.217,0.0,0.264,0.0,0.065,0.049,0.073,0.24
+1641717,Cason Wallace,OKC,"High Spot Up, Transition",1,0.124,0.117,0.148,0.027,0.317,0.0,0.023,0.077,0.048,0.247
+1629646,Charles Bassey,SAS,"Elite Cutter, Elite Roll Man, Post Up",2,0.164,0.072,0.0,0.248,0.0,0.0,0.0,0.255,0.0,0.098
+1631096,Chet Holmgren,OKC,"Elite Off-Screen, Spot Up, Transition",6,0.214,0.091,0.026,0.121,0.221,0.044,0.092,0.094,0.055,0.2
+1628449,Chris Boucher,TOR,"High Spot Up, Transition",1,0.208,0.057,0.0,0.055,0.381,0.0,0.0,0.119,0.0,0.203
+101108,Chris Paul,SAS,"Elite P&R Handler, High Playmaking, High Usage",3,0.137,0.342,0.389,0.0,0.195,0.0,0.0,0.0,0.125,0.137
+1631128,Christian Braun,DEN,"High Spot Up, Transition",1,0.155,0.096,0.068,0.037,0.23,0.0,0.0,0.135,0.018,0.367
+203991,Clint Capela,ATL,"Elite Cutter, Elite Roll Man, Post Up",2,0.16,0.073,0.0,0.243,0.0,0.046,0.0,0.261,0.0,0.12
+1629632,Coby White,CHI,"P&R Handler, Transition, Spot Up",5,0.237,0.197,0.286,0.007,0.228,0.0,0.032,0.008,0.068,0.289
+1628998,Cody Martin,PHX,"P&R Handler, Transition, Spot Up",5,0.142,0.128,0.165,0.039,0.285,0.0,0.036,0.051,0.06,0.246
+1642262,Cody Williams,UTA,"Elite Off-Screen, Spot Up, Transition",6,0.122,0.078,0.091,0.0,0.418,0.0,0.069,0.035,0.038,0.211
+1641732,Colby Jones,WAS,Balanced / Low Usage Role,7,0.138,0.123,0.156,0.0,0.394,0.0,0.0,0.0,0.0,0.0
+1630175,Cole Anthony,MEM,"Elite P&R Handler, High Playmaking, High Usage",3,0.238,0.253,0.326,0.019,0.208,0.0,0.017,0.014,0.079,0.203
+1631306,Cole Swider,IND,Balanced / Low Usage Role,7,0.155,0.022,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1630658,Colin Castleton,TOR,Balanced / Low Usage Role,7,0.125,0.092,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1631221,Collin Gillespie,PHX,"P&R Handler, Transition, Spot Up",5,0.17,0.235,0.222,0.0,0.373,0.0,0.0,0.0,0.07,0.135
+1629012,Collin Sexton,UTA,"Elite P&R Handler, High Playmaking, High Usage",3,0.264,0.246,0.274,0.0,0.168,0.0,0.041,0.036,0.122,0.183
+1630557,Corey Kispert,WAS,"Elite Off-Screen, Spot Up, Transition",6,0.169,0.094,0.086,0.063,0.289,0.0,0.133,0.066,0.0,0.191
+202709,Cory Joseph,ORL,"P&R Handler, Transition, Spot Up",5,0.126,0.166,0.19,0.067,0.419,0.0,0.0,0.0,0.0,0.128
+1641854,Craig Porter Jr.,CLE,"P&R Handler, Transition, Spot Up",5,0.155,0.191,0.333,0.0,0.182,0.0,0.0,0.063,0.063,0.167
+1626156,D'Angelo Russell,BKN,"Elite P&R Handler, High Playmaking, High Usage",3,0.228,0.302,0.401,0.044,0.0,0.0,0.0,0.026,0.068,0.0
+1629610,DaQuan Jeffries,CHA,"High Spot Up, Transition",1,0.136,0.073,0.1,0.0,0.374,0.0,0.062,0.1,0.0,0.176
+1630625,Dalano Banton,POR,"Elite P&R Handler, High Playmaking, High Usage",3,0.237,0.213,0.265,0.0,0.243,0.0,0.0,0.016,0.084,0.216
+1631207,Dalen Terry,CHI,"High Spot Up, Transition",1,0.142,0.136,0.108,0.0,0.352,0.0,0.0,0.057,0.028,0.307
+1642261,Dalton Knecht,LAL,"Elite Off-Screen, Spot Up, Transition",6,0.181,0.067,0.084,0.029,0.312,0.0,0.105,0.067,0.041,0.238
+203081,Damian Lillard,MIL,"Elite P&R Handler, High Playmaking, High Usage",3,0.269,0.299,0.398,0.0,0.104,0.0,0.03,0.008,0.154,0.143
+1641878,Damion Baugh,CHA,Balanced / Low Usage Role,7,0.186,0.235,0.257,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1629655,Daniel Gafford,DAL,"Elite Cutter, Elite Roll Man, Post Up",2,0.186,0.097,0.0,0.187,0.025,0.099,0.0,0.249,0.0,0.133
+1628464,Daniel Theis,NOP,"Elite Cutter, Elite Roll Man, Post Up",2,0.111,0.131,0.0,0.343,0.07,0.0,0.0,0.18,0.0,0.145
+203957,Danté Exum,DAL,"P&R Handler, Transition, Spot Up",5,0.193,0.22,0.298,0.0,0.304,0.0,0.0,0.0,0.0,0.199
+203967,Dario Šarić,DEN,"Elite Post Up, High Roll Man, High Usage",0,0.157,0.17,0.0,0.234,0.273,0.182,0.0,0.0,0.0,0.0
+1641727,Dariq Whitehead,BKN,"High Spot Up, Transition",1,0.189,0.078,0.0,0.0,0.389,0.0,0.0,0.0,0.0,0.248
+1629636,Darius Garland,CLE,"Elite P&R Handler, High Playmaking, High Usage",3,0.265,0.309,0.427,0.0,0.166,0.0,0.033,0.012,0.078,0.161
+1631223,David Roddy,HOU,"High Spot Up, Transition",1,0.159,0.121,0.0,0.0,0.374,0.0,0.0,0.0,0.0,0.22
+1630558,Davion Mitchell,MIA,"P&R Handler, Transition, Spot Up",5,0.135,0.237,0.301,0.0,0.262,0.0,0.0,0.0,0.168,0.199
+1630549,Day'Ron Sharpe,BKN,"Elite Cutter, Elite Roll Man, Post Up",2,0.186,0.158,0.0,0.127,0.084,0.094,0.0,0.171,0.0,0.094
+1628368,De'Aaron Fox,SAS,"Elite P&R Handler, High Playmaking, High Usage",3,0.274,0.262,0.283,0.0,0.145,0.009,0.031,0.043,0.12,0.221
+1629631,De'Andre Hunter,CLE,"Elite Off-Screen, Spot Up, Transition",6,0.221,0.077,0.089,0.063,0.23,0.037,0.065,0.051,0.091,0.211
+201599,DeAndre Jordan,DEN,"Elite Cutter, Elite Roll Man, Post Up",2,0.126,0.105,0.0,0.215,0.0,0.0,0.0,0.258,0.0,0.072
+201942,DeMar DeRozan,SAC,"Elite Iso, Elite Usage, High Playmaking",4,0.244,0.182,0.245,0.0,0.175,0.143,0.031,0.028,0.162,0.075
+1629731,Dean Wade,CLE,"High Spot Up, Transition",1,0.101,0.073,0.0,0.099,0.566,0.0,0.0,0.049,0.0,0.171
+1629028,Deandre Ayton,POR,"Elite Cutter, Elite Roll Man, Post Up",2,0.197,0.083,0.0,0.281,0.097,0.097,0.0,0.207,0.021,0.09
+1627749,Dejounte Murray,NOP,"Elite P&R Handler, High Playmaking, High Usage",3,0.263,0.347,0.431,0.0,0.157,0.0,0.022,0.0,0.129,0.145
+1626153,Delon Wright,NYK,Balanced / Low Usage Role,7,0.111,0.162,0.358,0.0,0.377,0.0,0.0,0.0,0.0,0.0
+1630166,Deni Avdija,POR,"P&R Handler, Transition, Spot Up",5,0.228,0.193,0.217,0.012,0.264,0.018,0.022,0.041,0.058,0.227
+203471,Dennis Schröder,DET,"Elite P&R Handler, High Playmaking, High Usage",3,0.211,0.287,0.359,0.0,0.198,0.0,0.038,0.0,0.181,0.106
+1641726,Dereck Lively II,DAL,"Elite Cutter, Elite Roll Man, Post Up",2,0.132,0.143,0.0,0.21,0.0,0.052,0.0,0.341,0.0,0.127
+1627884,Derrick Jones Jr.,LAC,"High Spot Up, Transition",1,0.16,0.044,0.02,0.066,0.371,0.0,0.0,0.141,0.0,0.257
+1628401,Derrick White,BOS,"P&R Handler, Transition, Spot Up",5,0.195,0.199,0.229,0.025,0.352,0.0,0.049,0.022,0.041,0.153
+1630217,Desmond Bane,ORL,"Elite P&R Handler, High Playmaking, High Usage",3,0.227,0.235,0.227,0.0,0.161,0.0,0.055,0.045,0.109,0.288
+1626164,Devin Booker,PHX,"Elite P&R Handler, High Playmaking, High Usage",3,0.285,0.301,0.301,0.021,0.14,0.027,0.119,0.024,0.09,0.184
+1642269,Devin Carter,SAC,"P&R Handler, Transition, Spot Up",5,0.169,0.139,0.199,0.0,0.331,0.0,0.0,0.0,0.078,0.217
+1630170,Devin Vassell,SAS,"P&R Handler, Transition, Spot Up",5,0.217,0.139,0.193,0.013,0.305,0.0,0.052,0.022,0.076,0.196
+1628415,Dillon Brooks,HOU,"High Spot Up, Transition",1,0.176,0.076,0.054,0.02,0.405,0.077,0.033,0.029,0.047,0.203
+1641794,Dillon Jones,OKC,"High Spot Up, Transition",1,0.131,0.143,0.091,0.0,0.366,0.0,0.0,0.126,0.063,0.166
+1627734,Domantas Sabonis,SAC,"Elite Post Up, High Roll Man, High Usage",0,0.213,0.251,0.011,0.224,0.105,0.115,0.0,0.156,0.021,0.128
+1631230,Dominick Barlow,ATL,"High Spot Up, Transition",1,0.141,0.07,0.0,0.153,0.244,0.0,0.0,0.176,0.0,0.198
+1642270,Donovan Clingan,POR,"Elite Cutter, Elite Roll Man, Post Up",2,0.135,0.081,0.0,0.195,0.08,0.0,0.0,0.188,0.0,0.089
+1628378,Donovan Mitchell,CLE,"Elite P&R Handler, High Playmaking, High Usage",3,0.298,0.238,0.417,0.015,0.121,0.007,0.019,0.02,0.103,0.189
+1628978,Donte DiVincenzo,MIN,"Elite Off-Screen, Spot Up, Transition",6,0.188,0.203,0.179,0.0,0.321,0.0,0.138,0.015,0.033,0.159
+1627827,Dorian Finney-Smith,LAL,"High Spot Up, Transition",1,0.123,0.066,0.0,0.092,0.412,0.0,0.0,0.046,0.0,0.214
+203110,Draymond Green,GSW,"High Spot Up, Transition",1,0.157,0.255,0.049,0.083,0.33,0.031,0.0,0.133,0.0,0.165
+1629234,Drew Eubanks,LAC,"Elite Cutter, Elite Roll Man, Post Up",2,0.149,0.11,0.0,0.18,0.068,0.068,0.0,0.33,0.0,0.102
+1630696,Dru Smith,MIA,"P&R Handler, Transition, Spot Up",5,0.131,0.128,0.19,0.0,0.321,0.0,0.0,0.0,0.0,0.155
+1629130,Duncan Robinson,MIA,"Elite Off-Screen, Spot Up, Transition",6,0.187,0.148,0.165,0.042,0.257,0.0,0.121,0.052,0.017,0.118
+1641871,Duop Reath,POR,"High Spot Up, Transition",1,0.162,0.083,0.0,0.207,0.373,0.0,0.0,0.073,0.0,0.114
+203939,Dwight Powell,DAL,"Elite Cutter, Elite Roll Man, Post Up",2,0.073,0.13,0.0,0.101,0.0,0.0,0.0,0.354,0.0,0.141
+1630700,Dyson Daniels,ATL,"P&R Handler, Transition, Spot Up",5,0.178,0.174,0.153,0.054,0.236,0.0,0.012,0.109,0.037,0.241
+203901,Elfrid Payton,NOP,"Elite P&R Handler, High Playmaking, High Usage",3,0.151,0.443,0.516,0.0,0.116,0.0,0.0,0.0,0.065,0.0
+1641989,Elijah Harkless,UTA,Balanced / Low Usage Role,7,0.12,0.073,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+201569,Eric Gordon,PHI,"High Spot Up, Transition",1,0.14,0.118,0.066,0.0,0.551,0.0,0.051,0.0,0.043,0.16
+1630596,Evan Mobley,CLE,"Elite Post Up, High Roll Man, High Usage",0,0.226,0.149,0.095,0.126,0.17,0.065,0.037,0.166,0.05,0.165
+1630532,Franz Wagner,ORL,"Elite Iso, Elite Usage, High Playmaking",4,0.306,0.247,0.268,0.024,0.149,0.064,0.023,0.072,0.126,0.168
+1627832,Fred VanVleet,HOU,"Elite P&R Handler, High Playmaking, High Usage",3,0.176,0.217,0.364,0.024,0.197,0.0,0.027,0.0,0.064,0.187
+1641713,GG Jackson,MEM,"High Spot Up, Transition",1,0.219,0.085,0.073,0.0,0.427,0.0,0.0,0.041,0.061,0.264
+1629216,Gabe Vincent,LAL,"Elite Off-Screen, Spot Up, Transition",6,0.131,0.09,0.159,0.025,0.446,0.0,0.053,0.025,0.051,0.123
+1629726,Garrison Mathews,ATL,"Elite Off-Screen, Spot Up, Transition",6,0.153,0.102,0.035,0.057,0.397,0.0,0.104,0.0,0.0,0.252
+203914,Gary Harris,ORL,"Elite Off-Screen, Spot Up, Transition",6,0.09,0.058,0.0,0.0,0.513,0.0,0.078,0.0,0.0,0.149
+1627780,Gary Payton II,GSW,"Elite Cutter, Elite Roll Man, Post Up",2,0.156,0.132,0.0,0.097,0.273,0.0,0.0,0.256,0.0,0.188
+1629018,Gary Trent Jr.,MIL,"High Spot Up, Transition",1,0.168,0.064,0.118,0.034,0.424,0.0,0.046,0.027,0.019,0.197
+1627777,Georges Niang,ATL,"High Spot Up, Transition",1,0.177,0.087,0.027,0.23,0.505,0.0,0.035,0.091,0.0,0.15
+203507,Giannis Antetokounmpo,MIL,"Elite Iso, Elite Usage, High Playmaking",4,0.346,0.339,0.114,0.085,0.053,0.149,0.0,0.085,0.179,0.221
+1629048,Goga Bitadze,ORL,"Elite Cutter, Elite Roll Man, Post Up",2,0.142,0.142,0.0,0.17,0.068,0.032,0.0,0.282,0.0,0.083
+1641711,Gradey Dick,TOR,"Elite Off-Screen, Spot Up, Transition",6,0.209,0.087,0.086,0.013,0.273,0.0,0.152,0.07,0.0,0.238
+1629684,Grant Williams,CHA,"High Spot Up, Transition",1,0.146,0.107,0.0,0.187,0.307,0.06,0.0,0.06,0.0,0.181
+1628960,Grayson Allen,PHX,"Elite Off-Screen, Spot Up, Transition",6,0.169,0.125,0.094,0.055,0.466,0.0,0.085,0.02,0.023,0.156
+1627824,Guerschon Yabusele,PHI,"Elite Post Up, High Roll Man, High Usage",0,0.163,0.114,0.0,0.23,0.275,0.107,0.0,0.083,0.0,0.148
+1630611,Gui Santos,GSW,"High Spot Up, Transition",1,0.126,0.138,0.0,0.0,0.347,0.0,0.0,0.201,0.0,0.18
+203084,Harrison Barnes,SAS,"High Spot Up, Transition",1,0.157,0.085,0.036,0.034,0.417,0.061,0.016,0.044,0.05,0.22
+1629312,Haywood Highsmith,MIA,"High Spot Up, Transition",1,0.111,0.084,0.0,0.034,0.499,0.0,0.0,0.11,0.0,0.191
+1630529,Herbert Jones,NOP,"High Spot Up, Transition",1,0.146,0.134,0.084,0.057,0.423,0.0,0.0,0.0,0.0,0.211
+1630193,Immanuel Quickley,TOR,"Elite P&R Handler, High Playmaking, High Usage",3,0.246,0.32,0.279,0.0,0.14,0.0,0.056,0.026,0.073,0.255
+1630171,Isaac Okoro,CLE,"High Spot Up, Transition",1,0.124,0.078,0.0,0.054,0.458,0.0,0.0,0.093,0.0,0.263
+1642268,Isaiah Collier,UTA,"Elite P&R Handler, High Playmaking, High Usage",3,0.186,0.342,0.266,0.0,0.158,0.0,0.0,0.018,0.122,0.282
+1628392,Isaiah Hartenstein,OKC,"Elite Cutter, Elite Roll Man, Post Up",2,0.165,0.178,0.0,0.246,0.051,0.0,0.0,0.347,0.016,0.07
+1630198,Isaiah Joe,OKC,"Elite Off-Screen, Spot Up, Transition",6,0.166,0.096,0.048,0.094,0.324,0.0,0.08,0.066,0.0,0.19
+1630191,Isaiah Stewart,DET,"Elite Cutter, Elite Roll Man, Post Up",2,0.121,0.12,0.0,0.204,0.086,0.078,0.0,0.19,0.0,0.107
+1631209,Isaiah Wong,CHA,Balanced / Low Usage Role,7,0.22,0.187,0.273,0.0,0.0,0.0,0.0,0.0,0.108,0.0
+1627826,Ivica Zubac,LAC,"Elite Post Up, High Roll Man, High Usage",0,0.192,0.121,0.0,0.196,0.009,0.279,0.0,0.204,0.0,0.069
+1630550,JT Thor,WAS,Balanced / Low Usage Role,7,0.132,0.04,0.0,0.0,0.44,0.0,0.0,0.0,0.0,0.0
+1629630,Ja Morant,MEM,"Elite Iso, Elite Usage, High Playmaking",4,0.312,0.355,0.285,0.0,0.137,0.013,0.017,0.012,0.178,0.269
+1642266,Ja'Kobe Walter,TOR,"High Spot Up, Transition",1,0.179,0.105,0.134,0.021,0.32,0.0,0.05,0.067,0.0,0.23
+1631095,Jabari Smith Jr.,HOU,"High Spot Up, Transition",1,0.16,0.048,0.029,0.055,0.311,0.067,0.041,0.079,0.025,0.193
+1631133,Jabari Walker,POR,"High Spot Up, Transition",1,0.156,0.071,0.0,0.092,0.353,0.0,0.0,0.108,0.0,0.176
+1630702,Jaden Hardy,DAL,"P&R Handler, Transition, Spot Up",5,0.244,0.138,0.248,0.0,0.314,0.0,0.041,0.0,0.09,0.194
+1631093,Jaden Ivey,DET,"Elite P&R Handler, High Playmaking, High Usage",3,0.256,0.207,0.264,0.0,0.169,0.0,0.025,0.043,0.077,0.218
+1630183,Jaden McDaniels,MIN,"High Spot Up, Transition",1,0.16,0.091,0.083,0.034,0.451,0.0,0.023,0.07,0.018,0.174
+1630256,Jae'Sean Tate,HOU,"High Spot Up, Transition",1,0.126,0.107,0.0,0.0,0.3,0.0,0.0,0.111,0.068,0.174
+1631170,Jaime Jaquez Jr.,MIA,"P&R Handler, Transition, Spot Up",5,0.194,0.181,0.176,0.0,0.263,0.052,0.016,0.069,0.09,0.202
+1631222,Jake LaRavia,SAC,"High Spot Up, Transition",1,0.14,0.15,0.031,0.0,0.366,0.0,0.0,0.076,0.0,0.307
+1627751,Jakob Poeltl,TOR,"Elite Cutter, Elite Roll Man, Post Up",2,0.184,0.136,0.0,0.249,0.033,0.071,0.0,0.243,0.016,0.099
+1628973,Jalen Brunson,NYK,"Elite Iso, Elite Usage, High Playmaking",4,0.289,0.318,0.394,0.0,0.101,0.03,0.03,0.02,0.173,0.148
+1631105,Jalen Duren,DET,"Elite Cutter, Elite Roll Man, Post Up",2,0.161,0.141,0.025,0.16,0.035,0.038,0.0,0.172,0.062,0.161
+1630224,Jalen Green,HOU,"Elite P&R Handler, High Playmaking, High Usage",3,0.267,0.159,0.428,0.0,0.135,0.0,0.025,0.017,0.114,0.165
+1641720,Jalen Hood-Schifino,PHI,Balanced / Low Usage Role,7,0.164,0.165,0.293,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1630552,Jalen Johnson,ATL,"P&R Handler, Transition, Spot Up",5,0.214,0.203,0.142,0.087,0.228,0.041,0.0,0.071,0.027,0.236
+1629618,Jalen Pickett,DEN,"P&R Handler, Transition, Spot Up",5,0.13,0.211,0.199,0.0,0.345,0.0,0.0,0.0,0.0,0.204
+1630188,Jalen Smith,CHI,"High Spot Up, Transition",1,0.201,0.101,0.0,0.229,0.236,0.0,0.027,0.079,0.0,0.215
+1630591,Jalen Suggs,ORL,"Elite P&R Handler, High Playmaking, High Usage",3,0.268,0.216,0.321,0.017,0.186,0.0,0.033,0.0,0.076,0.187
+1631114,Jalen Williams,OKC,"Elite P&R Handler, High Playmaking, High Usage",3,0.27,0.233,0.345,0.0,0.185,0.0,0.028,0.042,0.091,0.202
+1630592,Jalen Wilson,BKN,"High Spot Up, Transition",1,0.161,0.11,0.077,0.016,0.413,0.0,0.019,0.055,0.048,0.206
+1631288,Jamal Cain,NOP,"High Spot Up, Transition",1,0.167,0.065,0.054,0.0,0.406,0.0,0.0,0.0,0.0,0.252
+1627750,Jamal Murray,DEN,"Elite P&R Handler, High Playmaking, High Usage",3,0.235,0.223,0.34,0.009,0.088,0.038,0.041,0.04,0.098,0.147
+1642347,Jamal Shead,TOR,"Elite P&R Handler, High Playmaking, High Usage",3,0.179,0.307,0.293,0.0,0.221,0.0,0.028,0.033,0.05,0.218
+201935,James Harden,LAC,"Elite Iso, Elite Usage, High Playmaking",4,0.286,0.365,0.27,0.0,0.073,0.008,0.005,0.0,0.361,0.154
+1642419,Jamison Battle,TOR,"Elite Off-Screen, Spot Up, Transition",6,0.147,0.073,0.037,0.045,0.391,0.0,0.113,0.069,0.0,0.208
+1641716,Jarace Walker,IND,"P&R Handler, Transition, Spot Up",5,0.165,0.129,0.158,0.026,0.377,0.0,0.0,0.054,0.043,0.195
+1630215,Jared Butler,PHI,"Elite P&R Handler, High Playmaking, High Usage",3,0.222,0.317,0.436,0.0,0.128,0.0,0.0,0.0,0.155,0.161
+1642272,Jared McCain,PHI,"P&R Handler, Transition, Spot Up",5,0.243,0.171,0.298,0.0,0.265,0.0,0.051,0.0,0.065,0.223
+1631197,Jared Rhoden,TOR,"High Spot Up, Transition",1,0.183,0.098,0.0,0.0,0.323,0.0,0.0,0.0,0.0,0.242
+1628991,Jaren Jackson Jr.,MEM,"Elite Post Up, High Roll Man, High Usage",0,0.274,0.102,0.043,0.046,0.295,0.154,0.026,0.031,0.133,0.177
+1629020,Jarred Vanderbilt,LAL,"Elite Cutter, Elite Roll Man, Post Up",2,0.116,0.094,0.0,0.083,0.25,0.0,0.0,0.226,0.0,0.131
+1628386,Jarrett Allen,CLE,"Elite Cutter, Elite Roll Man, Post Up",2,0.156,0.091,0.0,0.289,0.022,0.042,0.0,0.294,0.0,0.111
+1629750,Javonte Green,CLE,"High Spot Up, Transition",1,0.113,0.059,0.0,0.04,0.442,0.0,0.0,0.104,0.0,0.201
+1629637,Jaxson Hayes,LAL,"Elite Cutter, Elite Roll Man, Post Up",2,0.12,0.076,0.0,0.248,0.0,0.0,0.0,0.362,0.0,0.111
+1630643,Jay Huff,MEM,"High Spot Up, Transition",1,0.194,0.077,0.0,0.115,0.403,0.0,0.0,0.09,0.0,0.252
+1627759,Jaylen Brown,BOS,"Elite Iso, Elite Usage, High Playmaking",4,0.282,0.204,0.174,0.009,0.166,0.101,0.047,0.028,0.154,0.213
+1641740,Jaylen Clark,MIN,"High Spot Up, Transition",1,0.115,0.067,0.0,0.0,0.386,0.0,0.0,0.09,0.0,0.228
+1641798,Jaylen Martin,WAS,Balanced / Low Usage Role,7,0.155,0.12,0.17,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1642377,Jaylen Wells,MEM,"High Spot Up, Transition",1,0.156,0.082,0.034,0.0,0.46,0.0,0.026,0.059,0.061,0.242
+1631119,Jaylin Williams,OKC,"High Spot Up, Transition",1,0.141,0.19,0.0,0.204,0.357,0.0,0.0,0.089,0.0,0.115
+1628369,Jayson Tatum,BOS,"Elite Iso, Elite Usage, High Playmaking",4,0.301,0.266,0.286,0.039,0.1,0.073,0.029,0.028,0.259,0.114
+1630288,Jeff Dowtin Jr.,PHI,"Elite P&R Handler, High Playmaking, High Usage",3,0.176,0.196,0.306,0.0,0.181,0.0,0.0,0.0,0.192,0.136
+201145,Jeff Green,HOU,"High Spot Up, Transition",1,0.144,0.068,0.0,0.085,0.486,0.0,0.0,0.0,0.0,0.155
+203924,Jerami Grant,POR,"Elite Off-Screen, Spot Up, Transition",6,0.192,0.099,0.086,0.0,0.345,0.052,0.092,0.023,0.069,0.201
+1630526,Jeremiah Robinson-Earl,NOP,"High Spot Up, Transition",1,0.14,0.101,0.031,0.083,0.348,0.0,0.0,0.128,0.0,0.175
+1631110,Jeremy Sochan,SAS,"Elite Cutter, Elite Roll Man, Post Up",2,0.184,0.138,0.043,0.141,0.197,0.039,0.0,0.169,0.025,0.176
+1630579,Jericho Sims,MIL,"Elite Cutter, Elite Roll Man, Post Up",2,0.074,0.068,0.0,0.0,0.0,0.0,0.0,0.342,0.0,0.0
+1641724,Jett Howard,ORL,"Elite Off-Screen, Spot Up, Transition",6,0.181,0.102,0.114,0.0,0.313,0.0,0.137,0.0,0.042,0.195
+202710,Jimmy Butler III,GSW,"Elite Iso, Elite Usage, High Playmaking",4,0.203,0.26,0.232,0.036,0.091,0.06,0.025,0.11,0.154,0.157
+1629111,Jock Landale,HOU,"Elite Cutter, Elite Roll Man, Post Up",2,0.148,0.102,0.0,0.284,0.095,0.1,0.0,0.168,0.0,0.089
+203954,Joel Embiid,PHI,"Elite Post Up, High Roll Man, High Usage",0,0.342,0.286,0.0,0.247,0.098,0.193,0.0,0.039,0.14,0.077
+1628381,John Collins,UTA,"Elite Post Up, High Roll Man, High Usage",0,0.234,0.105,0.014,0.103,0.197,0.098,0.105,0.086,0.045,0.133
+1629723,John Konchar,MEM,"High Spot Up, Transition",1,0.077,0.095,0.0,0.0,0.376,0.0,0.0,0.0,0.0,0.404
+1630548,Johnny Juzang,UTA,"Elite Off-Screen, Spot Up, Transition",6,0.174,0.08,0.083,0.039,0.343,0.0,0.135,0.041,0.054,0.173
+202685,Jonas Valančiūnas,SAC,"Elite Post Up, High Roll Man, High Usage",0,0.222,0.171,0.0,0.231,0.066,0.219,0.0,0.138,0.036,0.038
+1628371,Jonathan Isaac,ORL,"High Spot Up, Transition",1,0.155,0.056,0.0,0.09,0.291,0.027,0.0,0.152,0.0,0.105
+1630228,Jonathan Kuminga,GSW,"P&R Handler, Transition, Spot Up",5,0.271,0.151,0.194,0.027,0.198,0.069,0.025,0.109,0.075,0.185
+1642367,Jonathan Mogbo,TOR,"High Spot Up, Transition",1,0.145,0.16,0.03,0.11,0.195,0.0,0.0,0.18,0.035,0.242
+203903,Jordan Clarkson,UTA,"Elite P&R Handler, High Playmaking, High Usage",3,0.269,0.238,0.257,0.019,0.149,0.0,0.075,0.017,0.155,0.149
+1630692,Jordan Goodwin,LAL,"High Spot Up, Transition",1,0.134,0.108,0.106,0.056,0.397,0.0,0.0,0.0,0.0,0.117
+1641722,Jordan Hawkins,NOP,"Elite Off-Screen, Spot Up, Transition",6,0.204,0.076,0.148,0.02,0.281,0.0,0.127,0.0,0.029,0.213
+1641757,Jordan Miller,LAC,"P&R Handler, Transition, Spot Up",5,0.175,0.124,0.113,0.0,0.26,0.0,0.0,0.0,0.068,0.181
+1629673,Jordan Poole,WAS,"Elite P&R Handler, High Playmaking, High Usage",3,0.281,0.254,0.307,0.01,0.127,0.0,0.075,0.019,0.056,0.238
+1630631,Jose Alvarado,NOP,"Elite P&R Handler, High Playmaking, High Usage",3,0.193,0.278,0.342,0.016,0.281,0.0,0.017,0.021,0.058,0.159
+1630581,Josh Giddey,CHI,"Elite P&R Handler, High Playmaking, High Usage",3,0.214,0.322,0.261,0.0,0.237,0.0,0.014,0.045,0.037,0.272
+1630182,Josh Green,CHA,"Elite Off-Screen, Spot Up, Transition",6,0.115,0.081,0.075,0.0,0.395,0.0,0.071,0.033,0.0,0.261
+1628404,Josh Hart,NYK,"High Spot Up, Transition",1,0.151,0.206,0.065,0.041,0.303,0.0,0.0,0.119,0.039,0.262
+1629006,Josh Okogie,CHA,"High Spot Up, Transition",1,0.185,0.082,0.102,0.0,0.458,0.0,0.0,0.069,0.0,0.208
+201950,Jrue Holiday,BOS,"P&R Handler, Transition, Spot Up",5,0.156,0.174,0.121,0.038,0.354,0.056,0.025,0.053,0.06,0.18
+1630577,Julian Champagnie,SAS,"High Spot Up, Transition",1,0.164,0.078,0.032,0.047,0.475,0.0,0.047,0.042,0.019,0.23
+1641763,Julian Phillips,CHI,"High Spot Up, Transition",1,0.126,0.045,0.0,0.032,0.399,0.0,0.0,0.109,0.0,0.261
+1631124,Julian Strawther,DEN,"Elite Off-Screen, Spot Up, Transition",6,0.173,0.082,0.104,0.017,0.293,0.0,0.096,0.027,0.022,0.223
+203944,Julius Randle,MIN,"Elite Post Up, High Roll Man, High Usage",0,0.246,0.228,0.075,0.077,0.24,0.121,0.024,0.045,0.134,0.141
+1630551,Justin Champagnie,WAS,"High Spot Up, Transition",1,0.15,0.066,0.062,0.02,0.311,0.0,0.036,0.088,0.0,0.255
+1642348,Justin Edwards,PHI,"High Spot Up, Transition",1,0.165,0.084,0.107,0.0,0.385,0.0,0.027,0.045,0.065,0.194
+203994,Jusuf Nurkić,CHA,"Elite Post Up, High Roll Man, High Usage",0,0.202,0.167,0.0,0.249,0.154,0.295,0.0,0.17,0.0,0.047
+1630231,KJ Martin,UTA,"High Spot Up, Transition",1,0.112,0.074,0.0,0.096,0.208,0.0,0.0,0.216,0.0,0.296
+1642354,KJ Simpson,CHA,"P&R Handler, Transition, Spot Up",5,0.188,0.21,0.32,0.0,0.246,0.0,0.0,0.0,0.063,0.135
+1630539,Kai Jones,DAL,"High Spot Up, Transition",1,0.128,0.08,0.0,0.0,0.0,0.0,0.0,0.235,0.0,0.294
+1626157,Karl-Anthony Towns,NYK,"Elite Post Up, High Roll Man, High Usage",0,0.265,0.13,0.031,0.126,0.177,0.135,0.036,0.059,0.108,0.141
+1631255,Karlo Matković,NOP,"Elite Cutter, Elite Roll Man, Post Up",2,0.155,0.083,0.0,0.208,0.174,0.034,0.0,0.191,0.0,0.14
+202695,Kawhi Leonard,LAC,"Elite Iso, Elite Usage, High Playmaking",4,0.28,0.147,0.214,0.0,0.16,0.071,0.055,0.04,0.164,0.208
+1630811,Keaton Wallace,ATL,"P&R Handler, Transition, Spot Up",5,0.164,0.224,0.275,0.0,0.305,0.0,0.0,0.0,0.095,0.18
+1631099,Keegan Murray,SAC,"High Spot Up, Transition",1,0.148,0.055,0.036,0.018,0.409,0.0,0.043,0.052,0.013,0.243
+1631232,Keion Brooks Jr.,NOP,"High Spot Up, Transition",1,0.169,0.062,0.0,0.0,0.364,0.0,0.0,0.121,0.0,0.212
+1642276,Kel'el Ware,MIA,"Elite Cutter, Elite Roll Man, Post Up",2,0.169,0.062,0.0,0.24,0.153,0.034,0.0,0.215,0.0,0.103
+1629640,Keldon Johnson,SAS,"High Spot Up, Transition",1,0.207,0.105,0.078,0.026,0.309,0.012,0.02,0.068,0.06,0.256
+203482,Kelly Olynyk,NOP,"Elite Post Up, High Roll Man, High Usage",0,0.185,0.2,0.087,0.156,0.145,0.131,0.058,0.116,0.05,0.121
+1626162,Kelly Oubre Jr.,PHI,"P&R Handler, Transition, Spot Up",5,0.186,0.079,0.151,0.015,0.282,0.0,0.012,0.085,0.064,0.202
+1629026,Kenrich Williams,OKC,"High Spot Up, Transition",1,0.151,0.111,0.088,0.069,0.387,0.0,0.0,0.088,0.032,0.189
+203484,Kentavious Caldwell-Pope,MEM,"Elite Off-Screen, Spot Up, Transition",6,0.121,0.086,0.095,0.044,0.353,0.0,0.122,0.017,0.019,0.204
+1631165,Keon Ellis,SAC,"High Spot Up, Transition",1,0.125,0.08,0.065,0.025,0.436,0.0,0.018,0.03,0.019,0.236
+1630553,Keon Johnson,BKN,"P&R Handler, Transition, Spot Up",5,0.212,0.148,0.137,0.0,0.36,0.0,0.029,0.028,0.078,0.22
+1630556,Kessler Edwards,DAL,"High Spot Up, Transition",1,0.11,0.09,0.0,0.07,0.392,0.0,0.0,0.228,0.0,0.133
+201142,Kevin Durant,PHX,"Elite Iso, Elite Usage, High Playmaking",4,0.283,0.188,0.159,0.045,0.201,0.081,0.082,0.026,0.189,0.141
+1628989,Kevin Huerter,CHI,"Elite Off-Screen, Spot Up, Transition",6,0.171,0.124,0.114,0.036,0.368,0.0,0.061,0.053,0.0,0.228
+201567,Kevin Love,MIA,"High Spot Up, Transition",1,0.23,0.134,0.0,0.1,0.307,0.086,0.0,0.086,0.0,0.2
+1629645,Kevin Porter Jr.,MIL,"Elite P&R Handler, High Playmaking, High Usage",3,0.248,0.276,0.415,0.0,0.127,0.0,0.0,0.032,0.186,0.192
+1626172,Kevon Looney,GSW,"Elite Cutter, Elite Roll Man, Post Up",2,0.125,0.143,0.0,0.125,0.05,0.044,0.0,0.255,0.0,0.08
+1641718,Keyonte George,UTA,"Elite P&R Handler, High Playmaking, High Usage",3,0.237,0.272,0.316,0.011,0.178,0.0,0.052,0.025,0.118,0.146
+203114,Khris Middleton,WAS,"Elite P&R Handler, High Playmaking, High Usage",3,0.208,0.251,0.292,0.0,0.154,0.112,0.113,0.0,0.064,0.15
+202691,Klay Thompson,DAL,"Elite Off-Screen, Spot Up, Transition",6,0.214,0.104,0.072,0.028,0.279,0.018,0.144,0.04,0.042,0.192
+1641723,Kobe Bufkin,ATL,"P&R Handler, Transition, Spot Up",5,0.203,0.213,0.266,0.0,0.266,0.0,0.0,0.0,0.0,0.25
+1627739,Kris Dunn,LAC,"High Spot Up, Transition",1,0.126,0.153,0.056,0.042,0.438,0.0,0.0,0.065,0.023,0.238
+1631200,Kris Murray,POR,"High Spot Up, Transition",1,0.133,0.09,0.0,0.0,0.389,0.0,0.0,0.058,0.0,0.248
+204001,Kristaps Porziņģis,BOS,"Elite Post Up, High Roll Man, High Usage",0,0.253,0.113,0.0,0.216,0.196,0.208,0.035,0.096,0.026,0.116
+203937,Kyle Anderson,MIA,"P&R Handler, Transition, Spot Up",5,0.152,0.211,0.129,0.106,0.337,0.0,0.0,0.136,0.147,0.191
+1642271,Kyle Filipowski,UTA,"High Spot Up, Transition",1,0.184,0.14,0.023,0.097,0.276,0.041,0.028,0.134,0.048,0.186
+1628398,Kyle Kuzma,MIL,"P&R Handler, Transition, Spot Up",5,0.233,0.123,0.191,0.019,0.203,0.049,0.039,0.061,0.049,0.25
+200768,Kyle Lowry,PHI,"P&R Handler, Transition, Spot Up",5,0.1,0.206,0.175,0.0,0.357,0.0,0.0,0.0,0.0,0.175
+1630283,Kylor Kelley,LAL,Balanced / Low Usage Role,7,0.097,0.056,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+202681,Kyrie Irving,DAL,"Elite Iso, Elite Usage, High Playmaking",4,0.264,0.198,0.227,0.014,0.107,0.04,0.039,0.032,0.224,0.195
+1642273,Kyshawn George,WAS,"P&R Handler, Transition, Spot Up",5,0.156,0.133,0.169,0.0,0.297,0.0,0.029,0.031,0.025,0.238
+1630163,LaMelo Ball,CHA,"Elite P&R Handler, High Playmaking, High Usage",3,0.342,0.39,0.372,0.0,0.14,0.0,0.032,0.0,0.106,0.184
+1629013,Landry Shamet,NYK,"Elite Off-Screen, Spot Up, Transition",6,0.143,0.049,0.042,0.0,0.448,0.0,0.081,0.073,0.0,0.193
+1626204,Larry Nance Jr.,ATL,"Elite Cutter, Elite Roll Man, Post Up",2,0.155,0.125,0.0,0.158,0.367,0.0,0.0,0.215,0.0,0.102
+1628374,Lauri Markkanen,UTA,"Elite Off-Screen, Spot Up, Transition",6,0.231,0.074,0.026,0.118,0.178,0.038,0.178,0.071,0.046,0.137
+2544,LeBron James,LAL,"Elite Iso, Elite Usage, High Playmaking",4,0.291,0.395,0.178,0.031,0.106,0.129,0.027,0.036,0.166,0.208
+1631311,Lester Quinones,NOP,Balanced / Low Usage Role,7,0.213,0.198,0.212,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1630322,Lindy Waters III,DET,"Elite Off-Screen, Spot Up, Transition",6,0.145,0.092,0.0,0.0,0.418,0.0,0.138,0.0,0.0,0.204
+1629022,Lonnie Walker IV,PHI,Balanced / Low Usage Role,7,0.214,0.167,0.237,0.0,0.0,0.0,0.06,0.0,0.084,0.0
+1628366,Lonzo Ball,CHI,"P&R Handler, Transition, Spot Up",5,0.152,0.187,0.183,0.0,0.417,0.0,0.0,0.0,0.0,0.19
+1629652,Luguentz Dort,OKC,"High Spot Up, Transition",1,0.133,0.067,0.039,0.039,0.498,0.0,0.0,0.059,0.0,0.261
+1629029,Luka Dončić,LAL,"Elite Iso, Elite Usage, High Playmaking",4,0.328,0.342,0.307,0.0,0.091,0.046,0.033,0.017,0.226,0.179
+1628379,Luke Kennard,MEM,"Elite Off-Screen, Spot Up, Transition",6,0.14,0.179,0.123,0.029,0.365,0.0,0.079,0.038,0.021,0.217
+1628436,Luke Kornet,BOS,"Elite Cutter, Elite Roll Man, Post Up",2,0.111,0.115,0.0,0.181,0.0,0.034,0.0,0.339,0.0,0.096
+1627763,Malcolm Brogdon,WAS,"Elite P&R Handler, High Playmaking, High Usage",3,0.231,0.267,0.408,0.0,0.168,0.0,0.0,0.0,0.044,0.159
+1627736,Malik Beasley,DET,"Elite Off-Screen, Spot Up, Transition",6,0.215,0.089,0.105,0.032,0.262,0.0,0.167,0.009,0.025,0.216
+1628370,Malik Monk,SAC,"Elite P&R Handler, High Playmaking, High Usage",3,0.236,0.246,0.277,0.014,0.21,0.0,0.026,0.018,0.079,0.209
+1630542,Marcus Bagley,PHI,Balanced / Low Usage Role,7,0.128,0.056,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1631204,Marcus Sasser,DET,"Elite P&R Handler, High Playmaking, High Usage",3,0.187,0.239,0.358,0.0,0.166,0.0,0.0,0.0,0.083,0.214
+203935,Marcus Smart,WAS,"P&R Handler, Transition, Spot Up",5,0.198,0.221,0.287,0.0,0.345,0.0,0.0,0.0,0.112,0.25
+1631109,Mark Williams,CHA,"Elite Cutter, Elite Roll Man, Post Up",2,0.21,0.154,0.0,0.288,0.0,0.075,0.0,0.276,0.0,0.11
+202693,Markieff Morris,LAL,Balanced / Low Usage Role,7,0.202,0.191,0.0,0.0,0.417,0.0,0.0,0.0,0.0,0.0
+203486,Mason Plumlee,PHX,"Elite Cutter, Elite Roll Man, Post Up",2,0.105,0.133,0.0,0.209,0.0,0.0,0.0,0.372,0.0,0.097
+1641824,Matas Buzelis,CHI,"High Spot Up, Transition",1,0.181,0.072,0.072,0.024,0.394,0.0,0.024,0.074,0.043,0.264
+1629680,Matisse Thybulle,POR,"High Spot Up, Transition",1,0.135,0.126,0.0,0.0,0.43,0.0,0.0,0.0,0.0,0.224
+1631108,Max Christie,DAL,"High Spot Up, Transition",1,0.15,0.093,0.142,0.044,0.397,0.0,0.029,0.085,0.092,0.229
+1629622,Max Strus,CLE,"Elite Off-Screen, Spot Up, Transition",6,0.143,0.157,0.054,0.057,0.358,0.0,0.098,0.043,0.0,0.211
+1628467,Maxi Kleber,LAL,"High Spot Up, Transition",1,0.085,0.087,0.0,0.125,0.508,0.0,0.0,0.0,0.0,0.109
+1641721,Maxwell Lewis,BKN,Balanced / Low Usage Role,7,0.164,0.091,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1630695,Micah Potter,UTA,"High Spot Up, Transition",1,0.102,0.058,0.0,0.12,0.377,0.0,0.0,0.086,0.0,0.189
+1629008,Michael Porter Jr.,DEN,"Elite Off-Screen, Spot Up, Transition",6,0.197,0.084,0.044,0.022,0.215,0.009,0.127,0.11,0.015,0.198
+1628969,Mikal Bridges,NYK,"P&R Handler, Transition, Spot Up",5,0.192,0.141,0.129,0.024,0.257,0.043,0.054,0.106,0.017,0.216
+201144,Mike Conley,MIN,"P&R Handler, Transition, Spot Up",5,0.141,0.243,0.292,0.0,0.309,0.0,0.055,0.0,0.028,0.138
+1628970,Miles Bridges,CHA,"Elite P&R Handler, High Playmaking, High Usage",3,0.273,0.203,0.255,0.041,0.202,0.016,0.057,0.036,0.115,0.158
+1630540,Miles McBride,NYK,"P&R Handler, Transition, Spot Up",5,0.162,0.155,0.191,0.0,0.316,0.0,0.042,0.033,0.082,0.188
+1629011,Mitchell Robinson,NYK,Balanced / Low Usage Role,7,0.109,0.062,0.0,0.0,0.0,0.0,0.0,0.162,0.0,0.0
+1628964,Mo Bamba,NOP,"Elite Cutter, Elite Roll Man, Post Up",2,0.15,0.068,0.0,0.28,0.182,0.0,0.0,0.189,0.0,0.0
+1628420,Monte Morris,PHX,"P&R Handler, Transition, Spot Up",5,0.173,0.188,0.27,0.0,0.384,0.0,0.0,0.0,0.0,0.165
+1629021,Moritz Wagner,ORL,"Elite Post Up, High Roll Man, High Usage",0,0.254,0.135,0.0,0.205,0.217,0.078,0.0,0.165,0.052,0.113
+1630541,Moses Moody,GSW,"Elite Off-Screen, Spot Up, Transition",6,0.17,0.084,0.029,0.0,0.379,0.0,0.135,0.075,0.034,0.218
+1631243,Mouhamed Gueye,ATL,"High Spot Up, Transition",1,0.155,0.064,0.0,0.0,0.405,0.0,0.0,0.171,0.0,0.234
+1631217,Moussa Diabaté,CHA,"Elite Cutter, Elite Roll Man, Post Up",2,0.13,0.069,0.0,0.227,0.041,0.028,0.0,0.245,0.0,0.176
+1626167,Myles Turner,IND,"Elite Post Up, High Roll Man, High Usage",0,0.207,0.072,0.0,0.279,0.247,0.095,0.0,0.118,0.011,0.107
+1630230,Naji Marshall,DAL,"P&R Handler, Transition, Spot Up",5,0.197,0.161,0.133,0.025,0.357,0.0,0.0,0.045,0.051,0.266
+1629675,Naz Reid,MIN,"Elite Off-Screen, Spot Up, Transition",6,0.21,0.123,0.043,0.129,0.329,0.06,0.095,0.05,0.024,0.135
+1629674,Neemias Queta,BOS,"Elite Cutter, Elite Roll Man, Post Up",2,0.136,0.076,0.0,0.173,0.0,0.0,0.0,0.395,0.0,0.077
+1629651,Nic Claxton,BKN,"Elite Cutter, Elite Roll Man, Post Up",2,0.166,0.14,0.022,0.169,0.106,0.052,0.0,0.245,0.048,0.125
+1630208,Nick Richards,PHX,"Elite Cutter, Elite Roll Man, Post Up",2,0.169,0.058,0.0,0.287,0.0,0.053,0.0,0.209,0.0,0.107
+1641733,Nick Smith Jr.,CHA,"P&R Handler, Transition, Spot Up",5,0.205,0.169,0.277,0.045,0.266,0.0,0.037,0.018,0.064,0.16
+1629638,Nickeil Alexander-Walker,MIN,"P&R Handler, Transition, Spot Up",5,0.155,0.149,0.183,0.0,0.442,0.0,0.031,0.024,0.0,0.178
+201587,Nicolas Batum,LAC,"High Spot Up, Transition",1,0.087,0.082,0.0,0.085,0.577,0.0,0.0,0.039,0.0,0.167
+203999,Nikola Jokić,DEN,"Elite Post Up, High Roll Man, High Usage",0,0.285,0.398,0.068,0.12,0.101,0.23,0.061,0.105,0.049,0.098
+1631107,Nikola Jović,MIA,"P&R Handler, Transition, Spot Up",5,0.178,0.174,0.091,0.053,0.395,0.061,0.021,0.034,0.046,0.2
+202696,Nikola Vučević,CHI,"Elite Post Up, High Roll Man, High Usage",0,0.221,0.165,0.0,0.283,0.148,0.153,0.031,0.103,0.014,0.126
+1641730,Noah Clowney,BKN,"High Spot Up, Transition",1,0.185,0.063,0.0,0.116,0.439,0.0,0.057,0.046,0.0,0.164
+1626181,Norman Powell,LAC,"Elite Off-Screen, Spot Up, Transition",6,0.255,0.096,0.188,0.0,0.235,0.0,0.098,0.017,0.064,0.241
+1628384,OG Anunoby,NYK,"Elite Off-Screen, Spot Up, Transition",6,0.195,0.084,0.056,0.02,0.344,0.059,0.072,0.085,0.039,0.219
+1630167,Obi Toppin,IND,"High Spot Up, Transition",1,0.191,0.116,0.04,0.074,0.341,0.043,0.015,0.075,0.0,0.261
+1630534,Ochai Agbaji,TOR,"High Spot Up, Transition",1,0.144,0.081,0.053,0.043,0.32,0.0,0.034,0.097,0.0,0.292
+1641765,Olivier-Maxence Prosper,DAL,"High Spot Up, Transition",1,0.158,0.101,0.0,0.045,0.332,0.0,0.0,0.108,0.054,0.265
+1630168,Onyeka Okongwu,ATL,"Elite Cutter, Elite Roll Man, Post Up",2,0.169,0.113,0.0,0.227,0.158,0.046,0.0,0.198,0.0,0.118
+1631115,Orlando Robinson,TOR,Balanced / Low Usage Role,7,0.177,0.152,0.0,0.202,0.0,0.056,0.0,0.0,0.0,0.0
+1631131,Oscar Tshiebwe,UTA,"Elite Cutter, Elite Roll Man, Post Up",2,0.144,0.051,0.0,0.217,0.0,0.0,0.0,0.239,0.0,0.141
+1642345,Oso Ighodaro,PHX,"Elite Cutter, Elite Roll Man, Post Up",2,0.103,0.095,0.0,0.32,0.045,0.0,0.0,0.328,0.0,0.105
+1631172,Ousmane Dieng,OKC,"High Spot Up, Transition",1,0.152,0.107,0.12,0.093,0.4,0.0,0.0,0.0,0.0,0.16
+1629023,P.J. Washington,DAL,"P&R Handler, Transition, Spot Up",5,0.198,0.098,0.109,0.035,0.29,0.077,0.019,0.064,0.069,0.2
+1631094,Paolo Banchero,ORL,"Elite Iso, Elite Usage, High Playmaking",4,0.33,0.262,0.241,0.064,0.116,0.084,0.025,0.033,0.189,0.176
+1627783,Pascal Siakam,IND,"Elite Post Up, High Roll Man, High Usage",0,0.237,0.155,0.041,0.096,0.2,0.183,0.011,0.055,0.092,0.204
+1626192,Pat Connaughton,MIL,"High Spot Up, Transition",1,0.151,0.159,0.154,0.051,0.336,0.0,0.0,0.07,0.0,0.131
+1630172,Patrick Williams,CHI,"High Spot Up, Transition",1,0.165,0.106,0.111,0.022,0.38,0.039,0.026,0.03,0.036,0.243
+201988,Patty Mills,LAC,"P&R Handler, Transition, Spot Up",5,0.15,0.123,0.183,0.0,0.215,0.0,0.0,0.0,0.0,0.194
+202331,Paul George,PHI,"Elite Iso, Elite Usage, High Playmaking",4,0.233,0.217,0.245,0.0,0.138,0.062,0.094,0.0,0.201,0.12
+1630202,Payton Pritchard,BOS,"P&R Handler, Transition, Spot Up",5,0.186,0.184,0.172,0.015,0.331,0.0,0.055,0.017,0.076,0.204
+1641796,Pelle Larsson,MIA,"High Spot Up, Transition",1,0.141,0.116,0.071,0.0,0.386,0.0,0.047,0.102,0.0,0.217
+1631250,Pete Nance,MIL,Balanced / Low Usage Role,7,0.116,0.106,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1631212,Peyton Watson,DEN,"High Spot Up, Transition",1,0.138,0.073,0.026,0.068,0.283,0.0,0.0,0.155,0.022,0.342
+1630173,Precious Achiuwa,NYK,"Elite Cutter, Elite Roll Man, Post Up",2,0.143,0.065,0.0,0.143,0.19,0.052,0.0,0.195,0.057,0.153
+1629656,Quentin Grimes,PHI,"P&R Handler, Transition, Spot Up",5,0.218,0.172,0.242,0.024,0.341,0.0,0.044,0.026,0.112,0.24
+1631245,Quenton Jackson,IND,"P&R Handler, Transition, Spot Up",5,0.167,0.193,0.197,0.0,0.242,0.0,0.0,0.083,0.0,0.261
+1642366,Quinten Post,GSW,"High Spot Up, Transition",1,0.197,0.131,0.0,0.138,0.379,0.05,0.034,0.116,0.0,0.141
+1629628,RJ Barrett,TOR,"Elite P&R Handler, High Playmaking, High Usage",3,0.281,0.257,0.213,0.012,0.195,0.017,0.033,0.061,0.045,0.262
+1641736,Reece Beekman,BKN,Balanced / Low Usage Role,7,0.122,0.205,0.234,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1642263,Reed Sheppard,HOU,"P&R Handler, Transition, Spot Up",5,0.171,0.153,0.237,0.0,0.261,0.0,0.064,0.0,0.046,0.216
+202704,Reggie Jackson,PHI,"P&R Handler, Transition, Spot Up",5,0.17,0.172,0.235,0.0,0.359,0.0,0.0,0.0,0.092,0.15
+1626158,Richaun Holmes,WAS,"Elite Cutter, Elite Roll Man, Post Up",2,0.143,0.112,0.0,0.239,0.0,0.0,0.0,0.271,0.0,0.09
+1641741,Ricky Council IV,PHI,"High Spot Up, Transition",1,0.196,0.115,0.074,0.041,0.368,0.0,0.026,0.038,0.057,0.278
+1642265,Rob Dillingham,MIN,"Elite P&R Handler, High Playmaking, High Usage",3,0.215,0.283,0.359,0.0,0.207,0.0,0.0,0.0,0.107,0.2
+1629057,Robert Williams III,POR,"Elite Cutter, Elite Roll Man, Post Up",2,0.12,0.09,0.0,0.255,0.0,0.0,0.0,0.225,0.0,0.108
+1641842,Ronald Holland II,DET,"High Spot Up, Transition",1,0.177,0.095,0.08,0.0,0.361,0.0,0.0,0.056,0.024,0.3
+1626220,Royce O'Neale,PHX,"High Spot Up, Transition",1,0.151,0.128,0.015,0.048,0.576,0.0,0.015,0.017,0.0,0.208
+203497,Rudy Gobert,MIN,"Elite Cutter, Elite Roll Man, Post Up",2,0.129,0.075,0.0,0.223,0.0,0.03,0.0,0.311,0.0,0.084
+1629060,Rui Hachimura,LAL,"High Spot Up, Transition",1,0.156,0.063,0.0,0.081,0.353,0.068,0.0,0.129,0.03,0.23
+201566,Russell Westbrook,DEN,"Elite P&R Handler, High Playmaking, High Usage",3,0.23,0.289,0.202,0.011,0.183,0.04,0.014,0.078,0.1,0.217
+1642346,Ryan Dunn,PHX,"High Spot Up, Transition",1,0.161,0.059,0.019,0.082,0.515,0.0,0.0,0.084,0.0,0.151
+1631157,Ryan Rollins,MIL,"P&R Handler, Transition, Spot Up",5,0.179,0.173,0.243,0.0,0.272,0.0,0.0,0.0,0.064,0.216
+1630573,Sam Hauser,BOS,"Elite Off-Screen, Spot Up, Transition",6,0.14,0.057,0.04,0.048,0.401,0.0,0.11,0.026,0.0,0.232
+1630241,Sam Merrill,CLE,"Elite Off-Screen, Spot Up, Transition",6,0.14,0.099,0.03,0.074,0.345,0.0,0.108,0.053,0.0,0.197
+1630572,Sandro Mamukelashvili,SAS,"High Spot Up, Transition",1,0.202,0.108,0.0,0.186,0.348,0.03,0.0,0.072,0.0,0.177
+1630583,Santi Aldama,MEM,"High Spot Up, Transition",1,0.179,0.149,0.0,0.034,0.421,0.0,0.026,0.07,0.024,0.261
+1630703,Scoot Henderson,POR,"Elite P&R Handler, High Playmaking, High Usage",3,0.22,0.274,0.313,0.0,0.206,0.0,0.017,0.015,0.126,0.182
+1630567,Scottie Barnes,TOR,"Elite Iso, Elite Usage, High Playmaking",4,0.262,0.279,0.2,0.036,0.132,0.112,0.028,0.054,0.105,0.209
+1630590,Scotty Pippen Jr.,MEM,"P&R Handler, Transition, Spot Up",5,0.188,0.283,0.126,0.017,0.318,0.0,0.0,0.059,0.04,0.307
+203552,Seth Curry,CHA,"Elite Off-Screen, Spot Up, Transition",6,0.151,0.087,0.156,0.046,0.344,0.0,0.087,0.0,0.041,0.108
+1631101,Shaedon Sharpe,POR,"Elite P&R Handler, High Playmaking, High Usage",3,0.25,0.138,0.252,0.0,0.174,0.0,0.058,0.028,0.117,0.213
+1628983,Shai Gilgeous-Alexander,OKC,"Elite Iso, Elite Usage, High Playmaking",4,0.336,0.299,0.342,0.0,0.067,0.041,0.018,0.022,0.251,0.187
+1629003,Shake Milton,LAL,"P&R Handler, Transition, Spot Up",5,0.162,0.184,0.277,0.0,0.309,0.0,0.0,0.0,0.086,0.131
+1631323,Simone Fontecchio,DET,"High Spot Up, Transition",1,0.152,0.071,0.035,0.041,0.361,0.0,0.057,0.05,0.0,0.254
+203915,Spencer Dinwiddie,DAL,"Elite Iso, Elite Usage, High Playmaking",4,0.175,0.228,0.262,0.0,0.188,0.023,0.0,0.0,0.228,0.202
+201939,Stephen Curry,GSW,"Elite P&R Handler, High Playmaking, High Usage",3,0.286,0.284,0.254,0.011,0.125,0.0,0.171,0.052,0.083,0.151
+1642264,Stephon Castle,SAS,"Elite P&R Handler, High Playmaking, High Usage",3,0.253,0.231,0.237,0.016,0.205,0.01,0.012,0.038,0.098,0.241
+203500,Steven Adams,HOU,"Elite Cutter, Elite Roll Man, Post Up",2,0.127,0.107,0.0,0.155,0.0,0.068,0.0,0.155,0.0,0.042
+1629004,Svi Mykhailiuk,UTA,"P&R Handler, Transition, Spot Up",5,0.198,0.144,0.209,0.0,0.247,0.0,0.076,0.0,0.063,0.217
+204456,T.J. McConnell,IND,"Elite P&R Handler, High Playmaking, High Usage",3,0.226,0.359,0.505,0.0,0.126,0.0,0.0,0.052,0.049,0.142
+201959,Taj Gibson,CHA,"Elite Cutter, Elite Roll Man, Post Up",2,0.132,0.081,0.0,0.285,0.0,0.0,0.0,0.238,0.0,0.1
+1629659,Talen Horton-Tucker,CHI,"P&R Handler, Transition, Spot Up",5,0.208,0.162,0.285,0.0,0.229,0.0,0.0,0.0,0.048,0.301
+1631106,Tari Eason,HOU,"High Spot Up, Transition",1,0.185,0.082,0.042,0.024,0.32,0.0,0.015,0.088,0.027,0.282
+1627752,Taurean Prince,MIL,"High Spot Up, Transition",1,0.123,0.093,0.068,0.031,0.384,0.0,0.034,0.023,0.016,0.225
+1629611,Terance Mann,ATL,"High Spot Up, Transition",1,0.145,0.118,0.091,0.055,0.268,0.0,0.0,0.102,0.051,0.281
+1630545,Terrence Shannon Jr.,MIN,"High Spot Up, Transition",1,0.166,0.139,0.0,0.0,0.391,0.0,0.0,0.08,0.0,0.304
+1626179,Terry Rozier,MIA,"P&R Handler, Transition, Spot Up",5,0.195,0.152,0.252,0.0,0.267,0.0,0.032,0.02,0.05,0.231
+1628418,Thomas Bryant,IND,"Elite Cutter, Elite Roll Man, Post Up",2,0.162,0.078,0.0,0.227,0.361,0.047,0.0,0.099,0.0,0.0
+1642275,Tidjane Salaün,CHA,"High Spot Up, Transition",1,0.15,0.092,0.118,0.047,0.379,0.0,0.038,0.049,0.029,0.198
+203501,Tim Hardaway Jr.,DET,"Elite Off-Screen, Spot Up, Transition",6,0.151,0.074,0.062,0.042,0.319,0.0,0.131,0.015,0.02,0.266
+202699,Tobias Harris,DET,"Elite Post Up, High Roll Man, High Usage",0,0.173,0.095,0.084,0.039,0.239,0.168,0.027,0.06,0.071,0.203
+1628470,Torrey Craig,BOS,"High Spot Up, Transition",1,0.139,0.078,0.0,0.0,0.511,0.0,0.0,0.0,0.0,0.213
+1641787,Tosan Evbuomwan,BKN,Balanced / Low Usage Role,7,0.183,0.132,0.078,0.0,0.0,0.0,0.0,0.072,0.065,0.0
+1641739,Toumani Camara,POR,"High Spot Up, Transition",1,0.143,0.096,0.028,0.077,0.421,0.0,0.0,0.053,0.026,0.202
+1629027,Trae Young,ATL,"Elite P&R Handler, High Playmaking, High Usage",3,0.285,0.452,0.475,0.0,0.059,0.0,0.026,0.014,0.103,0.181
+1631218,Trayce Jackson-Davis,GSW,"Elite Cutter, Elite Roll Man, Post Up",2,0.164,0.163,0.0,0.199,0.038,0.059,0.0,0.299,0.0,0.148
+1630200,Tre Jones,CHI,"P&R Handler, Transition, Spot Up",5,0.136,0.289,0.253,0.0,0.262,0.0,0.0,0.0,0.057,0.23
+1630544,Tre Mann,CHA,"Elite P&R Handler, High Playmaking, High Usage",3,0.25,0.219,0.418,0.0,0.155,0.0,0.0,0.0,0.124,0.067
+1630570,Trendon Watford,BKN,"Elite P&R Handler, High Playmaking, High Usage",3,0.226,0.211,0.209,0.031,0.174,0.088,0.02,0.045,0.084,0.149
+1630243,Trevelin Queen,ORL,"P&R Handler, Transition, Spot Up",5,0.176,0.141,0.196,0.0,0.257,0.0,0.0,0.078,0.056,0.151
+1641998,Trey Jemison III,LAL,"Elite Cutter, Elite Roll Man, Post Up",2,0.121,0.058,0.0,0.226,0.0,0.0,0.0,0.192,0.0,0.0
+1626168,Trey Lyles,SAC,"High Spot Up, Transition",1,0.139,0.084,0.0,0.148,0.364,0.033,0.0,0.077,0.0,0.185
+1630530,Trey Murphy III,NOP,"P&R Handler, Transition, Spot Up",5,0.229,0.157,0.15,0.038,0.252,0.0,0.066,0.032,0.067,0.239
+1641774,Tristan Vukcevic,WAS,"Elite Cutter, Elite Roll Man, Post Up",2,0.252,0.136,0.0,0.297,0.211,0.042,0.0,0.125,0.038,0.141
+1641783,Tristan da Silva,ORL,"High Spot Up, Transition",1,0.149,0.105,0.117,0.05,0.339,0.0,0.028,0.096,0.02,0.195
+1629660,Ty Jerome,CLE,"Elite P&R Handler, High Playmaking, High Usage",3,0.229,0.241,0.429,0.0,0.215,0.0,0.0,0.013,0.055,0.172
+1629639,Tyler Herro,MIA,"Elite P&R Handler, High Playmaking, High Usage",3,0.271,0.254,0.331,0.011,0.177,0.0,0.077,0.019,0.059,0.187
+1630169,Tyrese Haliburton,IND,"Elite P&R Handler, High Playmaking, High Usage",3,0.21,0.384,0.384,0.0,0.155,0.0,0.033,0.0,0.095,0.174
+1631213,Tyrese Martin,BKN,"P&R Handler, Transition, Spot Up",5,0.179,0.15,0.151,0.0,0.356,0.0,0.05,0.025,0.02,0.183
+1630178,Tyrese Maxey,PHI,"Elite P&R Handler, High Playmaking, High Usage",3,0.293,0.276,0.331,0.0,0.119,0.0,0.053,0.01,0.159,0.192
+1626145,Tyus Jones,PHX,"P&R Handler, Transition, Spot Up",5,0.16,0.276,0.28,0.02,0.418,0.0,0.019,0.015,0.026,0.149
+203995,Vasilije Micic,PHX,"Elite P&R Handler, High Playmaking, High Usage",3,0.199,0.258,0.54,0.0,0.156,0.0,0.0,0.0,0.052,0.115
+1641705,Victor Wembanyama,SAS,"Elite Post Up, High Roll Man, High Usage",0,0.3,0.184,0.074,0.15,0.152,0.103,0.092,0.066,0.089,0.151
+1631246,Vince Williams Jr.,MEM,"High Spot Up, Transition",1,0.166,0.14,0.062,0.0,0.417,0.0,0.0,0.095,0.0,0.175
+1628427,Vlatko Čančar,DEN,"High Spot Up, Transition",1,0.109,0.095,0.0,0.0,0.324,0.0,0.0,0.0,0.0,0.324
+1630249,Vít Krejčí,ATL,"High Spot Up, Transition",1,0.131,0.175,0.135,0.041,0.318,0.0,0.028,0.052,0.0,0.24
+1631117,Walker Kessler,UTA,"Elite Cutter, Elite Roll Man, Post Up",2,0.133,0.083,0.0,0.194,0.037,0.0,0.0,0.241,0.0,0.114
+1628976,Wendell Carter Jr.,ORL,"Elite Cutter, Elite Roll Man, Post Up",2,0.159,0.117,0.0,0.18,0.206,0.072,0.0,0.213,0.026,0.088
+1631111,Wendell Moore Jr.,CHA,"P&R Handler, Transition, Spot Up",5,0.133,0.13,0.172,0.0,0.219,0.0,0.0,0.0,0.0,0.281
+1642274,Yves Missi,NOP,"Elite Cutter, Elite Roll Man, Post Up",2,0.141,0.072,0.0,0.274,0.036,0.027,0.0,0.257,0.0,0.075
+1642258,Zaccharie Risacher,ATL,"High Spot Up, Transition",1,0.203,0.068,0.057,0.035,0.325,0.0,0.045,0.077,0.012,0.299
+1628380,Zach Collins,CHI,"Elite Cutter, Elite Roll Man, Post Up",2,0.166,0.162,0.0,0.224,0.213,0.079,0.0,0.178,0.0,0.095
+1641744,Zach Edey,MEM,"Elite Post Up, High Roll Man, High Usage",0,0.156,0.059,0.0,0.099,0.051,0.159,0.0,0.216,0.0,0.117
+203897,Zach LaVine,SAC,"Elite Iso, Elite Usage, High Playmaking",4,0.251,0.178,0.267,0.017,0.136,0.044,0.033,0.041,0.166,0.233
+1630192,Zeke Nnaji,DEN,"High Spot Up, Transition",1,0.119,0.051,0.0,0.107,0.294,0.0,0.0,0.181,0.0,0.215
+1630533,Ziaire Williams,BKN,"High Spot Up, Transition",1,0.179,0.086,0.037,0.017,0.434,0.0,0.017,0.058,0.0,0.234
+1629627,Zion Williamson,NOP,"Elite Iso, Elite Usage, High Playmaking",4,0.325,0.325,0.154,0.036,0.071,0.117,0.0,0.074,0.237,0.15
