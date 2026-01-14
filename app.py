@@ -15,8 +15,13 @@ except KeyError:
 
 def generate_with_retry(prompt):
     """Attempts generation with multiple models in case of availability issues."""
-    # Priority: Flash (Fastest) -> 1.5 Pro (Best) -> 1.0 Pro (Legacy Fallback)
-    models_to_try = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-pro"]
+    # Priority: 2.0 Flash -> 2.0 Flash Exp -> 2.5 Flash -> Flash Latest (Generic)
+    models_to_try = [
+        "gemini-2.0-flash", 
+        "gemini-2.0-flash-exp", 
+        "gemini-2.5-flash", 
+        "gemini-flash-latest"
+    ]
     errors = []
 
     for model_name in models_to_try:
