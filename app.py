@@ -12,7 +12,9 @@ except KeyError:
     st.error("Gemini API Key not found. Please add it to your Streamlit Secrets.")
     st.stop()
 
-model = genai.GenerativeModel("gemini-1.5-pro")
+
+# Valid models: gemini-1.5-flash (fast, reliable), gemini-1.5-pro (more capable, sometimes rate limited/gated)
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 def to_raw(url):
     """Improved version to handle various GitHub URL formats."""
@@ -107,6 +109,11 @@ if user_input := st.chat_input("Ask a scouting question..."):
     full_prompt = f"System: Use this data context:\n{data_context}\n\nQuery: {user_input}"
     
     with st.chat_message("assistant"):
-        response = model.generate_content(full_prompt)
-        st.markdown(response.text)
-        st.session_state.messages.append({"role": "assistant", "content": response.text})
+        try:
+            with st.spinner("Analyzing data..."):
+                response = model.generate_content(full_prompt)
+                st.markdown(response.text)
+                st.session_state.messages.append({"role": "assistant", "content": response.text})
+        except Exception as e:
+            st.error(f"API Error: {str(e)}")
+            st.warning("Ensure your GEMINI_API_KEY is correct and has access to 'gemini-1.5-flash'.")
