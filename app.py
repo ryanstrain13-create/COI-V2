@@ -87,6 +87,19 @@ if st.sidebar.button("🔄 Clear All Cache & Refresh"):
     st.cache_data.clear()
     st.rerun()
 
+# --- DEBUG: API CHECKER ---
+with st.sidebar.expander("🛠️ API Debugger", expanded=False):
+    st.write(f"Lib Version: {genai.__version__}")
+    if st.button("List Available Models"):
+        try:
+            st.write("Fetching models...")
+            models = list(genai.list_models())
+            found_models = [m.name for m in models if 'generateContent' in m.supported_generation_methods]
+            st.success(f"Found {len(found_models)} models")
+            st.code("\n".join(found_models))
+        except Exception as e:
+            st.error(f"List Error: {e}")
+
 # --- 5. RAG (RETRIEVAL) LOGIC ---
 def get_filtered_context(player, team):
     context = "RELEVANT DATA EXTRACTED:\n"
