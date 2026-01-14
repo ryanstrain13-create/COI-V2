@@ -25,7 +25,7 @@ def to_raw(url):
     
 # --- 2. DATA SOURCE DEFINITIONS ---
 HISTORICAL_SOURCES = {
-    "Hist_Archetypes": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Archetype%20and%20Cluster%20Analysis/Master_Archetype_CSV.csv",
+    "Hist_Archetypes": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Archetype%20and%20Cluster%20Analysis/Historical%20Player%20Clusters/General/Master_Archetype_CSV.csv",
     "Hist_Stats": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Historical%20Advanced/nba_historical_advanced_stats_1997_2025.csv",
     "Ideal_Lineup": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Archetype%20and%20Cluster%20Analysis/ideal_lineup_compositions.csv",
     "Lineup_Recs": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Archetype%20and%20Cluster%20Analysis/lineup_recommendations.csv",
@@ -38,7 +38,7 @@ HISTORICAL_SOURCES = {
 
 LIVING_SOURCES = {
     "Live_Stats_25_26": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Weekly%20Updates/Contract%20Value%20Weekly%20Update/nba_timeseries_stats_2025_26.csv",
-    "Live_Contract_Value": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Weekly%20Updates/nba_contract_tracker.csv"
+    "Live_Contract_Value": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Weekly%20Updates/Contract%20Value%20Weekly%20Update/nba_contract_tracker.csv"
 }
 
 # --- 3. DATA LOADING ENGINE ---
