@@ -15,9 +15,14 @@ except KeyError:
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 def to_raw(url):
-    """Converts a standard GitHub UI link into a raw download link."""
-    return url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
-
+    """Improved version to handle various GitHub URL formats."""
+    # Remove any web parameters like ?short_path
+    url = url.split('?')[0]
+    # Standardize the conversion
+    if "github.com" in url and "/blob/" in url:
+        return url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+    return url
+    
 # --- 2. DATA SOURCE DEFINITIONS ---
 HISTORICAL_SOURCES = {
     "Hist_Archetypes": "https://github.com/ryanstrain13-create/COI-V2/blob/main/Archetype%20and%20Cluster%20Analysis/Master_Archetype_CSV.csv",
