@@ -79,6 +79,29 @@ live_dfs = load_living()
 # Creation of a global map for Team Abbreviation -> Team ID
 team_id_map = live_dfs['Live_Stats_25_26'][['TEAM_ABBREVIATION', 'TEAM_ID']].drop_duplicates().set_index('TEAM_ABBREVIATION')['TEAM_ID'].to_dict()
 
+# --- ARCHETYPE DEFINITIONS ---
+OFF_ARCHETYPE_LABELS = {
+    "Off_Cluster_0": "Low Usage / Rotation Body (Low USG, End of Bench)",
+    "Off_Cluster_1": "Low Usage Wing / Connector (Low USG, 3&D Potential)",
+    "Off_Cluster_2": "Off-Ball Shooter / Spacer (High 3P%, Off-Screen Action)",
+    "Off_Cluster_3": "Versatile Big / Post Scorer (High Post, Rebounding)",
+    "Off_Cluster_4": "Combo Guard / Secondary Handler (PnR, Spot Up)",
+    "Off_Cluster_5": "Rim Runner / Paint Big (Lob Threat, Screen Setter)",
+    "Off_Cluster_6": "High Usage Forward / Star Wing (Isolation, Scoring)",
+    "Off_Cluster_7": "Heliocentric Star / Lead Guard (High USG, Playmaking)"
+}
+
+DEF_ARCHETYPE_LABELS = {
+    "Def_Cluster_0": "Point of Attack Stopper (High On-Ball Defense)",
+    "Def_Cluster_1": "Mobile Big / Rebounder (Versatile Big)",
+    "Def_Cluster_2": "Wing Defender (Guards SF/SG)",
+    "Def_Cluster_3": "High Steals / Disruptor (Passing Lane Gambler)",
+    "Def_Cluster_4": "Anchor Big / Rim Protector (High Block Rate)",
+    "Def_Cluster_5": "Guard Disruptor (PG Defender)",
+    "Def_Cluster_6": "Versatile Forward (Switchable)",
+    "Def_Cluster_7": "High Difficulty / Versatile (Elite Wing Defense)"
+}
+
 # --- 4. SIDEBAR FILTERING ---
 st.sidebar.title("🔍 Scout Filtering")
 
@@ -87,6 +110,9 @@ selected_player = st.sidebar.selectbox("Select Player to Focus Analysis", ["None
 
 all_teams = sorted(live_dfs['Live_Stats_25_26']['TEAM_ABBREVIATION'].unique())
 selected_team = st.sidebar.selectbox("Select Team to Focus Analysis", ["None"] + all_teams)
+
+st.sidebar.markdown("---")
+generate_report = st.sidebar.button("📄 Generate Scouting Report")
 
 if st.sidebar.button("🔄 Clear All Cache & Refresh"):
     st.cache_data.clear()
@@ -122,32 +148,95 @@ def get_filtered_context(player, team):
         t_lineup = hist_dfs['Lineup_Recs'][hist_dfs['Lineup_Recs']['Team'] == team]
         t_roster = live_dfs['Live_Stats_25_26'][live_dfs['Live_Stats_25_26']['TEAM_ABBREVIATION'] == team]
         
-        context += f"\n--- Team: {team} ---\nArchetype Comp: {t_needs.to_string()}\nRecommendations: {t_lineup.to_string()}\nRoster: {t_roster.head(5).to_string()}\n"
+        context += f"\n--- Team: {team} ---\nArchetype Needs: {t_needs.to_string()}\nRecommendations: {t_lineup.to_string()}\nRoster Preview: {t_roster.head(5).to_string()}\n"
     
     return context if player != "None" or team != "None" else "No filters applied."
 
-# --- 6. CHAT INTERFACE ---
+# --- 6. MAIN CHAT INTERFACE ---
 st.title("🏀 NBA Archetype & Contract Scout")
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+tab_chat, tab_defs = st.tabs(["💬 Chat & Analysis", "📖 Archetype Definitions"])
 
-for msg in st.session_state.messages:
-    with st.chat_message(msg["role"]): st.markdown(msg["content"])
-
-if user_input := st.chat_input("Ask a scouting question..."):
-    st.session_state.messages.append({"role": "user", "content": user_input})
-    with st.chat_message("user"): st.markdown(user_input)
-
-    data_context = get_filtered_context(selected_player, selected_team)
-    full_prompt = f"System: Use this data context:\n{data_context}\n\nQuery: {user_input}"
+with tab_defs:
+    st.header("Player Archetype Definitions")
+    st.markdown("These definitions map the algorithmic clusters to basketball playstyles.")
     
-    with st.chat_message("assistant"):
-        try:
-            with st.spinner("Analyzing data..."):
-                response = generate_with_retry(full_prompt)
-                st.markdown(response.text)
-                st.session_state.messages.append({"role": "assistant", "content": response.text})
-        except Exception as e:
-            st.error(f"API Error: {str(e)}")
-            st.warning("Ensure your GEMINI_API_KEY is correct and has access to 'gemini-1.5-flash'.")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("🏀 Offensive Archetypes")
+        for k, v in OFF_ARCHETYPE_LABELS.items():
+            st.markdown(f"**{k}**: {v}")
+            
+    with col2:
+        st.subheader("🛡️ Defensive Archetypes")
+        for k, v in DEF_ARCHETYPE_LABELS.items():
+            st.markdown(f"**{k}**: {v}")
+
+with tab_chat:
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    for msg in st.session_state.messages:
+        with st.chat_message(msg["role"]): st.markdown(msg["content"])
+
+    # Handle Report Generation
+    if generate_report:
+        if selected_player == "None" and selected_team == "None":
+            st.error("⚠️ Please select a Player or Team from the sidebar to generate a report.")
+        else:
+            data_context = get_filtered_context(selected_player, selected_team)
+            
+            # Inject Definitions into Context
+            def_context = "\nARCHETYPE DEFINITIONS REFERENCE:\n"
+            for k,v in OFF_ARCHETYPE_LABELS.items(): def_context += f"{k}: {v}\n"
+            for k,v in DEF_ARCHETYPE_LABELS.items(): def_context += f"{k}: {v}\n"
+            
+            full_prompt = f"""
+            You are an expert NBA Scout. Generate a detailed, professional scouting report based on the selected data.
+            
+            TASK:
+            Create a structured report for the selected Player/Team.
+            - If Player: Analyze Playstyle (Archetype), Advanced Stats, Contract Value, and Historic Progression.
+            - If Team: Analyze Roster Construction, Needs, and Recommended Targets.
+            
+            Use these definitions to interpret the Archetype Clusters:
+            {def_context}
+            
+            DATA CONTEXT:
+            {data_context}
+            
+            Format nicely with Markdown headers, bullet points, and a final 'Verdict'.
+            """
+            
+            st.session_state.messages.append({"role": "user", "content": "Generate Detailed Scouting Report"})
+            with st.chat_message("user"): st.markdown("Generate Detailed Scouting Report")
+            
+            with st.chat_message("assistant"):
+                try:
+                    with st.spinner("Compiling scouting report..."):
+                        response = generate_with_retry(full_prompt)
+                        st.markdown(response.text)
+                        st.session_state.messages.append({"role": "assistant", "content": response.text})
+                except Exception as e:
+                    st.error(f"Report Generation Failed: {e}")
+
+    # Handle Chat Input
+    if user_input := st.chat_input("Ask a scouting question..."):
+        st.session_state.messages.append({"role": "user", "content": user_input})
+        with st.chat_message("user"): st.markdown(user_input)
+
+        data_context = get_filtered_context(selected_player, selected_team)
+        
+        # Inject brief definitions context
+        def_context_short = "OFF: " + str(OFF_ARCHETYPE_LABELS) + "\nDEF: " + str(DEF_ARCHETYPE_LABELS)
+        
+        full_prompt = f"System: You are an NBA Analyst. Use this data:\n{data_context}\n\nDefinitions:\n{def_context_short}\n\nUser Query: {user_input}"
+        
+        with st.chat_message("assistant"):
+            try:
+                with st.spinner("Analyzing data..."):
+                    response = generate_with_retry(full_prompt)
+                    st.markdown(response.text)
+                    st.session_state.messages.append({"role": "assistant", "content": response.text})
+            except Exception as e:
+                st.error(f"Error: {e}")
