@@ -13,8 +13,24 @@ except KeyError:
     st.stop()
 
 
-# Valid models: gemini-1.5-flash (fast, reliable), gemini-1.5-pro (more capable, sometimes rate limited/gated)
-model = genai.GenerativeModel("gemini-1.5-flash")
+def generate_with_retry(prompt):
+    """Attempts generation with multiple models in case of availability issues."""
+    # Priority: Flash (Fastest) -> 1.5 Pro (Best) -> 1.0 Pro (Legacy Fallback)
+    models_to_try = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-pro"]
+    errors = []
+
+    for model_name in models_to_try:
+        try:
+            model = genai.GenerativeModel(model_name)
+            response = model.generate_content(prompt)
+            return response
+        except Exception as e:
+            errors.append(f"{model_name}: {str(e)}")
+            continue
+
+    # If all fail, raise the collected errors
+    error_msg = "\n".join(errors)
+    raise Exception(f"All available models failed.\nDetails:\n{error_msg}")
 
 def to_raw(url):
     """Improved version to handle various GitHub URL formats."""
@@ -111,7 +127,7 @@ if user_input := st.chat_input("Ask a scouting question..."):
     with st.chat_message("assistant"):
         try:
             with st.spinner("Analyzing data..."):
-                response = model.generate_content(full_prompt)
+                response = generate_with_retry(full_prompt)
                 st.markdown(response.text)
                 st.session_state.messages.append({"role": "assistant", "content": response.text})
         except Exception as e:
