@@ -53,13 +53,16 @@ def load_living():
 hist_dfs = load_historical()
 live_dfs = load_living()
 
+# Creation of a global map for Team Abbreviation -> Team ID
+team_id_map = live_dfs['Live_Stats_25_26'][['TEAM_ABBREVIATION', 'TEAM_ID']].drop_duplicates().set_index('TEAM_ABBREVIATION')['TEAM_ID'].to_dict()
+
 # --- 4. SIDEBAR FILTERING ---
 st.sidebar.title("🔍 Scout Filtering")
 
-all_players = sorted(pd.concat([hist_dfs['Hist_Stats']['Player'], live_dfs['Live_Stats_25_26']['Player']]).unique())
+all_players = sorted(pd.concat([hist_dfs['Hist_Stats']['PLAYER_NAME'], live_dfs['Live_Stats_25_26']['PLAYER_NAME']]).unique())
 selected_player = st.sidebar.selectbox("Select Player to Focus Analysis", ["None"] + all_players)
 
-all_teams = sorted(live_dfs['Live_Stats_25_26']['Tm'].unique())
+all_teams = sorted(live_dfs['Live_Stats_25_26']['TEAM_ABBREVIATION'].unique())
 selected_team = st.sidebar.selectbox("Select Team to Focus Analysis", ["None"] + all_teams)
 
 if st.sidebar.button("🔄 Clear All Cache & Refresh"):
@@ -70,17 +73,18 @@ if st.sidebar.button("🔄 Clear All Cache & Refresh"):
 def get_filtered_context(player, team):
     context = "RELEVANT DATA EXTRACTED:\n"
     if player != "None":
-        p_live = live_dfs['Live_Stats_25_26'][live_dfs['Live_Stats_25_26']['Player'] == player]
-        p_arch = hist_dfs['Hist_Archetypes'][hist_dfs['Hist_Archetypes']['Player'] == player]
-        p_hist = hist_dfs['Hist_Stats'][hist_dfs['Hist_Stats']['Player'] == player].tail(3)
+        p_live = live_dfs['Live_Stats_25_26'][live_dfs['Live_Stats_25_26']['PLAYER_NAME'] == player]
+        p_arch = hist_dfs['Hist_Archetypes'][hist_dfs['Hist_Archetypes']['PLAYER_NAME'] == player]
+        p_hist = hist_dfs['Hist_Stats'][hist_dfs['Hist_Stats']['PLAYER_NAME'] == player].tail(3)
         p_contract = live_dfs['Live_Contract_Value'][live_dfs['Live_Contract_Value']['Player'] == player]
         
         context += f"\n--- Player: {player} ---\nStats: {p_live.to_string()}\nContracts: {p_contract.to_string()}\nArchetype: {p_arch.to_string()}\nHistory: {p_hist.to_string()}\n"
 
     if team != "None":
-        t_needs = hist_dfs['Team_Archetypes_25'][hist_dfs['Team_Archetypes_25']['Team'] == team]
+        tid = team_id_map.get(team)
+        t_needs = hist_dfs['Team_Archetypes_25'][hist_dfs['Team_Archetypes_25']['TEAM_ID'] == tid]
         t_lineup = hist_dfs['Lineup_Recs'][hist_dfs['Lineup_Recs']['Team'] == team]
-        t_roster = live_dfs['Live_Stats_25_26'][live_dfs['Live_Stats_25_26']['Tm'] == team]
+        t_roster = live_dfs['Live_Stats_25_26'][live_dfs['Live_Stats_25_26']['TEAM_ABBREVIATION'] == team]
         
         context += f"\n--- Team: {team} ---\nArchetype Comp: {t_needs.to_string()}\nRecommendations: {t_lineup.to_string()}\nRoster: {t_roster.head(5).to_string()}\n"
     
